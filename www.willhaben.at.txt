@@ -1,0 +1,5992 @@
+<iframe charset="utf-8" src="https://static.adfarm1.adition.com/ci.html" style="width:0px;height:0px;border:0px;position:absolute;min-width:0px;min-height:0px"></iframe><script type="text/javascript" src="https://pix04.revsci.net/F09828/b3/0/3/120814/598210545.js?D=DM_LOC%3Dhttps%253A%252F%252Fwww.willhaben.at%252Fiad%252Fimmobilien%252Fhaus-kaufen%252Fsteiermark%252Fmurau%252Fabc-183081495%252F%253Fbpid%253Dstyria%2526_rsiL%253D0%26DM_EOM%3D1&amp;C=F09828"></script>
+    <!--
+
+           _  _  _  _             _
+__      __(_)| || || |__    __ _ | |__    ___  _ __
+\  \ /\/ /| || || || '_ \  / _` || '_ \  / _ \| '_  \
+ \ V  V / | || || || | | || (_| || |_) ||  __/| | | |
+  \_/\_/  |_||_||_||_| |_| \__,_||_.__/  \___||_| |_|
+
+
+An unserem Quellcode interessiert?
+Verbesserungsvorschläge?
+Du möchtest Deine Skills gerne an unseren über einer Milliarde Page Impressions pro Monat testen?
+Du willst gerne etwas programmieren, das von unseren über zwei Millionen Usern verwendet wird?
+
+Bewirb dich bei uns - einem mehrfach ausgezeichneten Great Place to Work.
+
+http://jobsbei.willhaben.at/
+
+-->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+    
+    
+        
+
+
+    <div id="adition_TagManager" class="adition_TagManager"><div><iframe width="1" height="1" seamless="" scrolling="no" frameborder="0" allowtransparency="true" src="about:blank"></iframe></div></div>
+
+
+        
+        
+            
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/WFAdUidhDBg.js?version=42#channel=f361cdecb2275c4&amp;origin=https%3A%2F%2Fwww.willhaben.at" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : IADLIB.facebookAppId || '', //prod
+            xfbml      : true,
+            version    : 'v2.2',
+            status: true,
+            cookie: true
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/de_DE/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+        
+
+        
+        <div id="overlay-layer">
+        </div>
+    
+    
+
+
+    
+    
+    
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+<header id="header">
+    <table>
+        <tbody><tr>
+            <td id="headerLogo">
+                <a id="wh-logo-link" href="/" title="willhaben: Kleinanzeigen, Immobilien, Gebrauchtwagen, Privatimmobilien und Jobs">
+                    <img src="https://cache.willhaben.at/img/willhaben-style/wh_Logo_RGB.svg">
+                </a>
+            </td>
+            <td class="headerRight">
+                <table>
+                    <tbody><tr>
+                        <td>
+                            
+
+
+
+
+
+
+
+
+
+
+<nav class="pull-right nav-login">
+    <ul class="nav navbar-nav">
+        <li>
+            <a class="myProfileLink" href="/iad/myprofile" rel="nofollow">
+                Mein willhaben
+            </a>
+        </li>
+        <li class="navbar-nav-hiddenable">
+            <a class="myProfileLink" href="/iad/myprofile/myadverts" rel="nofollow">
+                Anzeigen
+            </a>
+        </li>
+        <li class="navbar-nav-hiddenable">
+            <a class="myProfileLink" href="/iad/myprofile/myfindings" rel="nofollow">
+                Merkliste
+            </a>
+        </li>
+        <li class="navbar-nav-hiddenable">
+            <a class="myProfileLink" href="/iad/myprofile/mysearches" rel="nofollow">
+                Suchagent
+            </a>
+        </li>
+        <li>
+            
+
+            
+                
+                
+                    
+                    
+
+                    <a class="myProfileLink" href="/iad/myprofile/login" id="login-logout" rel="nofollow">
+                            Login
+                        </a> | <a class="myProfileLink" href="/iad/myprofile/login?notregistered=1" id="register" rel="nofollow">
+                            Registrieren
+                        </a>
+                
+            
+        </li>
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+    
+    
+    
+    
+    
+        
+    
+
+
+
+    
+    
+    
+    
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            
+                
+                
+                
+                
+                
+                
+                    
+                
+                
+            
+        
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+    
+    
+
+    
+
+
+
+
+
+
+        <a type="button" href="/iad/anzeigenaufgabe?xtatc=INT-36" class="btn btn-adinput myProfile">ANZEIGE AUFGEBEN</a>
+    
+    
+    
+
+
+        </li>
+    </ul>
+</nav>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+
+
+<nav class="pull-right nav-main">
+    <ul class="nav navbar-nav">
+        <li class="active first">
+            
+
+
+
+
+
+
+
+
+
+<a href="/iad/immobilien">
+    Immobilien&nbsp;&nbsp;<span class="linkAdCounter">83.311</span>
+</a>
+
+        </li>
+        <li class="">
+            
+
+
+
+
+
+
+
+
+
+<a href="/iad/gebrauchtwagen">
+    Auto&nbsp;&amp;&nbsp;Motor&nbsp;&nbsp;<span class="linkAdCounter">119.919</span>
+</a>
+
+        </li>
+        <li class="">
+            
+
+
+
+
+
+
+
+
+
+<a href="http://www.willhaben.at/jobs/">
+    Jobs&nbsp;&amp;&nbsp;Karriere&nbsp;&nbsp;<span class="linkAdCounter">10.711</span>
+</a>
+
+        </li>
+        <li class=" last">
+            
+
+
+
+
+
+
+
+
+
+<a href="/iad/kaufen-und-verkaufen">
+    Marktplatz&nbsp;&nbsp;<span class="linkAdCounter">4.043.750</span>
+</a>
+
+        </li>
+    </ul>
+</nav>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+</header>
+
+<header id="header-print">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+    
+    
+
+
+
+
+
+
+
+  
+
+
+<table>
+    <tbody><tr>
+        <td id="headerLogo">
+            <span id="wh-logo-link">
+                <img src="https://cache.willhaben.at/img/willhaben-style/wh_Logo_RGB.svg">
+            </span>
+        </td>
+        <td class="headerRight">
+            <div class="printHeaderText">
+          <h2>Deine Immobilienplattform für Österreich</h2>
+      </div>
+      <div class="printHeaderAmount">mit 83.311 Anzeigen</div>
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+</header>
+
+
+    
+    <div id="topbanner">
+        
+
+
+    <div class="center-ad-leaderboard">
+        <div id="adition_Leaderboard" class="adition_Leaderboard"><div><iframe width="728" height="90" seamless="" scrolling="no" frameborder="0" allowtransparency="true" src="about:blank" style="width: 728px; height: 90px;"></iframe></div></div>
+    </div>
+
+    </div>
+
+
+    
+    <div id="page-container">
+        <div id="page-container-inner">
+
+            
+            <div id="page-content" class="clearfix">
+                
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+<div id="tabs">
+    <ul class="nav nav-tabs" role="tablist">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+                
+                
+                    
+                
+                <li class="active">
+                    <a href="/iad/realestate/object?adId=183081495" rel="nofollow">
+                        <span>Anzeige</span>
+                    </a>
+                </li>
+            
+        
+    </ul>
+</div>
+
+
+                <div id="box-maincontent" class="boxBlueRoundedCorners realestate">
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+            
+        
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+    
+        
+    
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+<div itemscope="" itemtype="http://schema.org/Product" class="wh-anzeige ">
+    
+        
+            
+            
+            
+                <link itemprop="additionalType" href="http://www.productontology.org/id/Real_estate">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+
+<div class="advert-info-container top">
+    <span id="advert-info-whCode">willhaben-Code: 183081495</span> |
+    <span id="advert-info-dateTime">Zuletzt geändert: 23.01.2017 16:51</span>
+
+    
+        <div class="pull-right">
+            
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+        </div>
+    
+</div>
+
+
+
+    <div id="refreshAdsActive" datafld="true"></div>
+
+
+
+
+<div class="adHeadingLine">
+    <div class="adHeading">
+        <h1 itemprop="name" class="header cXenseParse">
+                Chalet dirket an der Skipiste mit großer Terrasse und Weitblick ~ Mountain Resort St. Lamprecht
+            <div class="subHeading">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+        
+        
+        
+        
+    
+
+    
+        <div class="mg-offset-0">
+            8813
+            Sankt Lambrecht
+        </div>
+    
+
+    
+        <div class="mg-offset-1">
+            159 m²
+        </div>
+    
+
+    
+        <div class="mg-offset-2">
+            4 Zimmer
+        </div>
+    
+
+
+            </div>
+        </h1>
+    </div>
+    
+        <div class="rememberAdTop">
+            
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+<div class="socialMedia">
+    <div class="rememberAd advertbuttons">
+        
+            
+            
+                
+                
+                <a href="/iad/myprofile/saveadtofolder?adId=183081495" class="btn btn-wh-secondary atbutton savead" style="font-size: 11px" rel="nofollow">
+                    <i class="icon-icon_merken"></i> ANZEIGE MERKEN
+                </a>
+            
+        
+    </div>
+</div>
+
+        </div>
+    
+</div>
+
+
+<div class="inner-content clearfix">
+    <div class="container left">
+        
+
+
+
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+        
+    
+
+
+<script type="text/javascript">
+    if (IADLIB.galleryCounter) {
+        IADLIB.galleryCounter.initializeXiti('F', '2', 'ad_img&x1=2&x2=1&x3=99925&x4=1&x5=6&x6=183081495&x7=willhaben&x8=2&x7=willhaben&x8=2&x9=&x10=');
+    }
+</script>
+
+
+    
+    
+
+
+
+    
+    
+        
+            
+
+            
+
+            <div class="galleria-container-wrapper cXenseParse">
+
+                
+                    
+                    
+                        <div class="galleria on" style="width: 604px; height: 618px;"><div class="galleria-container notouch galleria-theme-wh" style="width: 604px; height: 516px;"><div class="galleria-stage"><div class="galleria-images" style="position: relative; top: 0px; left: 0px; width: 100%; height: 100%;"><div class="galleria-image" style="overflow: hidden; position: absolute; top: 0px; left: 0px; opacity: 0; transition: none; z-index: 0;"><div class="galleria-layer" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 2;"></div><div class="galleria-frame" style="overflow: hidden; position: absolute; top: 0px; left: 0px; z-index: 4; background: rgb(0, 0, 0); display: none;"></div></div><div class="galleria-image" style="overflow: hidden; position: absolute; top: 0px; left: 0px; opacity: 1; width: 604px; height: 431px; transition: none; z-index: 1;"><div class="galleria-layer" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; z-index: 2; display: none; width: 605px; height: 533px;"></div><div class="galleria-frame" style="overflow: hidden; position: absolute; top: 0px; left: 0px; z-index: 4; background: rgb(0, 0, 0); display: none;"></div><img src="https://cache.willhaben.at/mmo/5/183/081/495_-995758012.jpg" width="489" style="display: block; opacity: 1; min-width: 0px; min-height: 0px; max-width: none; max-height: none; transform: translate3d(0px, 0px, 0px); width: 489px; height: 431px; position: absolute; top: -51px; left: 0px;" height="431" alt="Chalet dirket an der Skipiste mit großer Terrasse und Weitblick ~ Mountain Resort St. Lamprecht" itemprop="image"></div></div><div class="galleria-loader" style="display: none; opacity: 0.4;"></div><div class="galleria-counter" style="opacity: 0.6;"><span class="galleria-current">1</span> / <span class="galleria-total">6</span></div><div class="galleria-image-nav"><div class="galleria-image-nav-right" style="right: -40px; transition: none;"></div><div class="galleria-image-nav-left" style="left: -40px; transition: none;"></div></div></div><div class="galleria-thumbnails-container galleria-carousel"><div class="galleria-thumb-nav-left disabled"></div><div class="galleria-thumbnails-list" style="overflow: hidden; position: relative;"><div class="galleria-thumbnails" style="overflow: hidden; position: relative; width: 675px; height: 75px;"><div class="galleria-image lazy active" style="overflow: hidden; position: relative; visibility: visible; width: 85px; height: 75px;"><img src="https://cache.willhaben.at/mmo/5/183/081/495_-995758012_thumb.jpg" width="85" style="display: block; opacity: 1; min-width: 0px; min-height: 0px; max-width: none; max-height: none; transform: translate3d(0px, 0px, 0px); width: 85px; height: 75px; position: absolute; top: 0px; left: 0px;" height="75" alt="Chalet dirket an der Skipiste mit großer Terrasse und Weitblick ~ Mountain Resort St. Lamprecht" itemprop="image"></div><div class="galleria-image lazy" style="overflow: hidden; position: relative; visibility: visible; width: 112px; height: 75px;"><img src="https://cache.willhaben.at/mmo/5/183/081/495_-873472488_thumb.jpg" width="112" style="display: block; opacity: 0.6; min-width: 0px; min-height: 0px; max-width: none; max-height: none; transform: translate3d(0px, 0px, 0px); width: 112px; height: 75px; position: absolute; top: 0px; left: 0px;" height="75" alt="Bild 2" itemprop="image"></div><div class="galleria-image lazy" style="overflow: hidden; position: relative; visibility: visible; width: 112px; height: 75px;"><img src="https://cache.willhaben.at/mmo/5/183/081/495_-531764734_thumb.jpg" width="112" style="display: block; opacity: 0.6; min-width: 0px; min-height: 0px; max-width: none; max-height: none; transform: translate3d(0px, 0px, 0px); width: 112px; height: 75px; position: absolute; top: 0px; left: 0px;" height="75" alt="Bild 3" itemprop="image"></div><div class="galleria-image lazy" style="overflow: hidden; position: relative; visibility: visible; width: 112px; height: 75px;"><img src="https://cache.willhaben.at/mmo/5/183/081/495_118288597_thumb.jpg" width="112" style="display: block; opacity: 0.6; min-width: 0px; min-height: 0px; max-width: none; max-height: none; transform: translate3d(0px, 0px, 0px); width: 112px; height: 75px; position: absolute; top: 0px; left: 0px;" height="75" alt="Bild 4" itemprop="image"></div><div class="galleria-image lazy" style="overflow: hidden; position: relative; visibility: visible; width: 112px; height: 75px;"><img src="https://cache.willhaben.at/mmo/5/183/081/495_71366207_thumb.jpg" width="112" style="display: block; opacity: 0.6; min-width: 0px; min-height: 0px; max-width: none; max-height: none; transform: translate3d(0px, 0px, 0px); width: 112px; height: 75px; position: absolute; top: 0px; left: 0px;" height="75" alt="Bild 5" itemprop="image"></div><div class="galleria-image lazy" style="overflow: hidden; position: relative; visibility: visible; width: 112px; height: 75px;"><img src="https://cache.willhaben.at/mmo/5/183/081/495_-924529050_thumb.jpg" width="112" style="display: block; opacity: 0.6; min-width: 0px; min-height: 0px; max-width: none; max-height: none; transform: translate3d(0px, 0px, 0px); width: 112px; height: 75px; position: absolute; top: 0px; left: 0px;" height="75" alt="Bild 6" itemprop="image"></div></div></div><div class="galleria-thumb-nav-right"></div></div><div class="galleria-info"><div class="galleria-info-text"><div class="galleria-info-title" style="display: none;"></div><div class="galleria-info-description">Bild 1</div></div><div class="galleria-info-link"></div><div class="galleria-info-close"></div></div><div class="galleria-tooltip" style="opacity: 0;"></div></div></div>
+                        
+                            
+                                <script type="text/javascript">
+                                    IADLIB.galleriaLoader.initializeAndRun(window.jQuery, window.Galleria, [{"image":"https://cache.willhaben.at/mmo/5/183/081/495_-995758012.jpg","thumb":"https://cache.willhaben.at/mmo/5/183/081/495_-995758012_thumb.jpg","description":"Bild 1","altText":"Chalet dirket an der Skipiste mit großer Terrasse und Weitblick ~ Mountain Resort St. Lamprecht"},{"image":"https://cache.willhaben.at/mmo/5/183/081/495_-873472488.jpg","thumb":"https://cache.willhaben.at/mmo/5/183/081/495_-873472488_thumb.jpg","description":"Bild 2","altText":"Bild 2"},{"image":"https://cache.willhaben.at/mmo/5/183/081/495_-531764734.jpg","thumb":"https://cache.willhaben.at/mmo/5/183/081/495_-531764734_thumb.jpg","description":"Bild 3","altText":"Bild 3"},{"image":"https://cache.willhaben.at/mmo/5/183/081/495_118288597.jpg","thumb":"https://cache.willhaben.at/mmo/5/183/081/495_118288597_thumb.jpg","description":"Bild 4","altText":"Bild 4"},{"image":"https://cache.willhaben.at/mmo/5/183/081/495_71366207.jpg","thumb":"https://cache.willhaben.at/mmo/5/183/081/495_71366207_thumb.jpg","description":"Bild 5","altText":"Bild 5"},{"image":"https://cache.willhaben.at/mmo/5/183/081/495_-924529050.jpg","thumb":"https://cache.willhaben.at/mmo/5/183/081/495_-924529050_thumb.jpg","description":"Bild 6","altText":"Bild 6"}]);
+                                </script>
+                            
+                        
+                    
+                
+            </div>
+        
+    
+
+    
+    
+        
+        
+            
+        
+    
+
+    
+    
+    
+        
+            
+            
+        
+        
+    
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Objektinformation</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        <div class="row col-2-box">
+            
+                
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Objekttyp</span>
+
+    <div class="col-2-body">
+        
+        Schloss/Burg/Chalet
+    
+    </div>
+</div>
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Zimmer</span>
+
+    <div class="col-2-body">
+        
+        4
+    
+    </div>
+</div>
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+                
+                    
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Wohnfläche</span>
+
+    <div class="col-2-body">
+        
+                        159 m²
+                    
+    </div>
+</div>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+                
+
+                
+                    
+                    
+                    
+                        
+                        
+                        
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Verfügbar</span>
+
+    <div class="col-2-body">
+        ab sofort
+    </div>
+</div>
+
+                    
+                
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Heizung</span>
+
+    <div class="col-2-body">
+        
+        Fernwärme
+    
+    </div>
+</div>
+
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Bautyp</span>
+
+    <div class="col-2-body">
+        
+        Neubau
+    
+    </div>
+</div>
+
+
+                
+
+
+
+
+
+
+
+
+
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Zustand</span>
+
+    <div class="col-2-body">
+        
+        Erstbezug
+    
+    </div>
+</div>
+
+
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+            </div>
+    </div>
+
+    
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Ausstattung und Freifläche</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        <div class="row col-2-box">
+                
+                    
+                        
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Abstellraum</span>
+
+    <div class="col-2-body">
+        
+    </div>
+</div>
+
+                    
+                    
+                
+                    
+                        
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Carport</span>
+
+    <div class="col-2-body">
+        
+    </div>
+</div>
+
+                    
+                    
+                
+                    
+                    
+                        
+
+
+
+<div class="col-xs-6">
+    <span class="col-2-desc">Terrasse</span>
+
+    <div class="col-2-body">
+        40 m²
+    </div>
+</div>
+
+                    
+                
+            </div>
+    </div>
+
+    
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Energieausweis</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        <div class="description">
+                    <ul>
+                        
+                            <li><strong>HWB</strong> (kwh/m²/Jahr): 45</li>
+                        
+                        
+                        
+                        
+                    </ul>
+                </div>
+    </div>
+
+    
+</div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            
+            
+        
+        
+            
+            
+        
+        
+    
+
+    
+        
+            
+        
+        
+    
+
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Objektbeschreibung</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        
+                        
+                            <div itemprop="description" class="description">
+                        
+                        
+                    
+                        
+                            
+                                
+                                    <div class="box-body">
+<div class="description">
+<div class="box-body">
+<div class="description">
+<div class="box-body">
+<div class="description">
+<div class="box-body">
+<div class="description">
+<p style="text-align: left;">Direkt neben der Skipiste wird auf ca. 50.000 m² das Mountain Resort St. Lambrecht mit rund 22 Chalets errichtet. Jedes Chalet verfügt über eine großzügige Terrasse. Die gesamte Siedlung hat eine Widmung für Zweitwohnsitznutzung. Diese Chalets können entweder als Edelrohbau&nbsp; oder bereits schlüsselfertig erworben werden.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Insgesamt verfügt die Siedlung über 4 Edelrohbau Prime Chalets. Prime Chalet bedeutet, dass die Wohnungen über eine besser Ausrichtung verfügen. Sie haben ein Ausmaß von 159,24 m² und erstrecken sich über zwei Etagen. Im Erdgeschoss befindet sich eine Garderobe, ein Zimmer und ein Abstellraum/Technikraum. Über einen Stiege gelangt man in die obere Etage, welche über eine großzügige Wohnküche, zwei geräumige Schlafzimmer, ein Badezimmer und ein Gäste-WC verfügt. Das Highlight des Chalets ist die 40 m² große Terrasse, welche einen wunderschönen Panoramablick verspricht.</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Das Chalet überzeugt unter anderem durch die perfekte Lage direkt neben der Skipiste und durch die hochwertige Ausstattung!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+                                
+                                
+                            
+                        
+                    </div>
+    </div>
+
+    
+</div>
+        
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Lage</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        
+                        
+                        
+                            <div class="description">
+                        
+                    
+                        
+                            
+                                
+                                    <p style="text-align: left;">Das Mountain Resort St. Lambrecht befindet sich direkt an der Skipiste des Skigebietes Grebenzen in sonniger Aussichtslage unweit des Ortszentrums von St. Lambrecht. Seine erhöhte und leicht geneigte Lage bietet eine wunderschöne Fernsicht über das Ortszentrum, das Kloster Stift St. Lambrecht und die umliegenden Berge.</p>
+                                
+                                
+                            
+                        
+                    </div>
+    </div>
+
+    
+</div>
+        
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Sonstiges</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        
+                        
+                        
+                            <div class="description">
+                        
+                    
+                        
+                            
+                                
+                                    <div class="box-body">
+<div class="description">
+<div class="box-body">
+<div class="description">
+<div class="box-body">
+<div class="description">
+<div class="box-body">
+<div class="description">
+<p style="text-align: left;">Immo-Code: 0065_WHG_K_Prime</p>
+<div class="box-body">
+<div class="description">
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">Bitte beachten Sie, dass wir aufgrund der Nachweispflicht gegenüber unserem Auftraggeber nur Anfragen mit vollständiger Angabe von Namen und Telefonnummer bearbeiten können.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+                                
+                                
+                            
+                        
+                    </div>
+    </div>
+
+    
+</div>
+        
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+
+        
+    
+
+     
+    
+
+
+
+
+
+
+
+    
+
+
+
+                 
+    
+
+
+
+
+
+
+    
+
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+                   
+    
+
+
+
+
+
+
+    
+        
+            
+            
+        
+        
+            
+        
+        
+    
+
+                   
+
+    
+
+    
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+ 
+    
+
+
+
+
+
+
+
+    
+
+
+ 
+    
+
+
+
+
+
+
+
+    
+
+
+ 
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+        
+        
+            
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+            
+                <span>Kontakt</span>
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        <div class="row">
+                    <div class="col-xs-6 contact-img">
+                        <div class="box-logo">
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+    
+        
+        
+        
+            
+        
+    
+
+
+
+    
+        
+        
+        
+            
+        
+    
+
+    
+        
+            
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                
+                                            
+
+                                            
+                                            
+                                        
+                                    
+                                
+                                
+                            
+                        
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+
+    
+        
+            <div class="printImg">
+                <img class="logoContentLeft" src="https://cache.willhaben.at/mmo/logo/atz/19282380/hb_logo_ohne_claim_5111993855700846282_large.png" alt="" border="0">
+            </div>
+            <div class="logoHtml">
+                <a href="http://www.nach-hause.at" target="_blank" data-company-link=""><img src="https://cache.willhaben.at/mmo/logo/atz/19282380/hb_logo_ohne_claim_5111993855700846282_large.png" class="logoContentLeft" border="0" alt="Homepage"></a>
+            </div>
+        
+        
+    
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 contact-desc">
+
+                        
+
+
+
+
+
+
+
+<dl class="dl-vertically">
+    
+    
+                            
+
+
+
+
+
+
+
+
+
+    
+        
+            
+        
+        
+    
+
+
+
+    
+
+
+
+
+<dt>Firma</dt>
+<dd>Hammerl-Bewo Immobilienpartner</dd>
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+        
+        
+            
+
+
+
+
+<dt>Adresse</dt>
+<dd>Merangasse 12<br>8010 Graz</dd>
+        
+    
+
+
+
+                            
+                                
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+<dt>Kontaktperson</dt>
+<dd>Kristina Gindl, MSc</dd>
+
+
+                            
+                        
+
+</dl>
+
+                        
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+    
+    
+                            
+
+
+
+
+    
+
+
+
+
+<dt>Telefon</dt>
+<dd>069914449494</dd>
+
+
+                            
+
+
+
+
+
+                            
+
+
+
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+                            
+
+                            
+
+
+
+
+
+    
+
+
+
+
+
+
+                            
+
+
+
+
+
+    
+
+
+
+
+
+
+                            
+
+
+
+
+
+    
+
+
+
+
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            
+        
+
+        
+        
+
+
+
+
+<dt>Infos</dt>
+<dd><a href="http://www.nach-hause.at" target="_blank" data-company-link="">Firmenwebsite</a></dd>
+    
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+    
+        
+            
+            
+                
+                
+            
+        
+    
+
+    
+
+
+
+
+<dt></dt>
+<dd><a href="/iad/immobilien/immobilienmakler-detail?directoryEntry=2&amp;parent=COUNTY&amp;drillkey=MUNICIPALITY&amp;orgId=19282380">Firmenbeschreibung</a></dd>
+
+
+                            
+
+
+
+
+
+    
+
+
+
+
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+        
+        
+        
+            
+            
+        
+    
+
+    
+        
+        
+        
+            
+            
+                
+                
+                    
+                    
+                        
+                        
+                            
+                            
+                            
+                            
+                        
+                    
+                
+            
+            
+        
+    
+
+
+
+
+    
+        <dd class="f-links further">
+            <a rel="nofollow" href="/iad/immobilien/immobilien/angebote?orgId=19282380">
+                <strong>
+                    Weitere Anzeigen von diesem Anbieter
+                </strong>
+            </a>
+        </dd>
+    
+
+
+                        
+
+</dl>
+                    </div>
+                </div>
+    </div>
+
+    
+</div>
+
+    
+
+
+        
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+        
+    
+
+
+
+
+    
+    
+    
+    
+
+
+    
+    
+        
+        
+            
+                
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                
+            
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+    
+    
+        
+    
+    
+
+    
+    
+        
+        
+        
+        
+        
+        
+    
+    
+
+    
+    
+    
+    
+        
+        
+            
+                
+                    
+                
+            
+            
+            
+
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+    
+        
+            
+                
+            
+            
+        
+    
+    
+
+    
+    
+    
+        
+                
+                
+                    
+                
+        
+    
+    
+    
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+    
+    
+        
+    
+    
+
+
+
+    
+    
+    
+    
+
+    
+    
+        
+            
+                
+                    
+                
+            
+            
+        
+    
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+    
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+                
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+    
+    
+
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<div id="closeMessage" style="display:none;">
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+    
+    
+    
+
+
+<div class="message-container warning-message " id="statusMessageBox">
+    <table cellspacing="0">
+        <tbody><tr>
+            <td>
+                <span class="icon">
+                    <span class="icon-icon_exclamationmark"></span>
+                </span>
+            </td>
+            <td class="text">
+                
+                Deine Anfrage konnte nicht versendet werden. Bitte akzeptiere die Zustimmungserklärung, um die Anfrage zu versenden.
+        <strong>
+            <a id="try-again" class="stayinadinput" href="javascript:void(0);">Zustimmungserklärung erneut aufrufen</a>
+        </strong>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var TRY_AGAIN = "#try-again";
+        var TRIGGER_BUTTON = '#contactAdvertiserButtonWithOverlayHandler';
+
+        $(TRY_AGAIN).click(function (e) {
+            e.preventDefault();
+            $(TRIGGER_BUTTON).click();
+        });
+    })
+</script>
+
+<div class="contact-block">
+
+    <div class="box-heading">
+        <span>Kontaktformular</span>
+        <div class="mandatory-container"><span class="mandatory-sign"></span> = Pflichtfeld</div>
+    </div>
+
+    <noscript>
+        &lt;div class="noscriptdiv"&gt;
+            &lt;div class="warningsymbol"&gt;&lt;/div&gt;
+            &lt;div class="warningtext"&gt;
+                &lt;strong&gt;JavaScript muss aktiviert sein um Anfragen zu versenden!&lt;/strong&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    </noscript>
+
+    
+        <div class="row contact-body contact-form-box">
+            <div class="col-xs-12">
+                <form action="/iad/contactadvertiser/confirmation?xtatc=INT-205" method="post" id="contactagent" name="contactagent" role="form" class="form-horizontal">
+
+                    <input type="hidden" name="adId" value="183081495">
+                    <input type="hidden" name="sid" value="null">
+                    <input type="hidden" name="pos" value="null">
+                    <input type="hidden" name="emailTo" value="BROKER/EMAIL:0">
+                    <input type="hidden" name="userAction" value="">
+
+                    
+
+                    
+                    <div class="form-group">
+                        <label for="name" class="col-xs-2 control-label mandatory-sign">Name</label>
+                        <div class="col-xs-6">
+                            <input maxlength="40" id="name" class="form-control input-sm" type="text" name="name" value="">
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="email" class="col-xs-2 control-label mandatory-sign">E-Mail</label>
+                        <div class="col-xs-6">
+                            <input maxlength="60" id="email" class="form-control input-sm" type="text" name="email" value="">
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        
+                            
+                        
+                        <label for="phone" class="col-xs-2 control-label mandatory-sign">Telefon</label>
+                        <div class="col-xs-6">
+                            <input maxlength="40" id="phone" class="form-control input-sm" type="text" name="phone" value="">
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="text" class="col-xs-2 control-label">Nachricht</label>
+                        <div class="col-xs-8">
+                            <textarea id="additional" class="form-control" rows="4" maxlength="" name="text"></textarea>
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <div class="col-xs-offset-2 col-xs-6">
+                            
+                                <input class="checkbox" id="copyToSender" type="checkbox" name="copyToSender" value="true">
+                            <input type="hidden" name="copyToSender" value="">
+                            <label for="copyToSender" class="control-label cp-label">Kopie dieser Anfrage an mich senden.</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-xs-offset-2 col-xs-6">
+                            <button id="contactAdvertiserButtonWithOverlayHandler" type="submit" class="btn btn-wh-primary btn-lg btn-prefix">
+                                <i class="icon-icon_anfragen"></i>
+                                <span class="btn-desc">ANFRAGE SENDEN</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <input type="hidden" name="isImmo" value="true">
+                </form>
+            </div>
+        </div>
+    
+</div>
+
+<script type="text/javascript">
+    (function ($) {
+        $('#' + 'contactAdvertiserButtonWithOverlayHandler').attr('disabled', false).click(function (e) {
+            e.preventDefault();
+        });
+    }(jQuery));
+
+    $(document).ready(function () {
+        var FORM = 'contactagent',
+                FORM_SELECTOR = '#contactagent',
+                PHONE_INPUT = '#phone',
+                EMAIL_INPUT = '#email',
+                NAME_INPUT = '#name',
+                USER_ACTION_HIDDEN_FIELD = 'userAction',
+                SUBMIT_BUTTON = '#contactAdvertiserButtonWithOverlayHandler',
+                CANCEL_MESSAGE = '#closeMessage',
+                MODAL = '#smsAllowanceOverlay';
+
+        function isSmsAllowanceRequiredForThisUser() {
+            var adId = 183081495;
+            var name = $(NAME_INPUT).val();
+            var email = $(EMAIL_INPUT).val();
+            var phone = $(PHONE_INPUT).val();
+
+            if(true) {
+                IADLIB.contactadvertiser.inputValidationDetailPage('/iad/isSmsAllowanceRequired',
+                    adId,
+                    name,
+                    email,
+                    phone);
+            } else {
+                IADLIB.contactadvertiser.inputValidation('/iad/isSmsAllowanceRequired',
+                        adId,
+                        name,
+                        email,
+                        phone);
+            }
+        }
+
+        $(SUBMIT_BUTTON).click(function (e) {
+            setUserAction(FORM, USER_ACTION_HIDDEN_FIELD, 'email.send');
+            isSmsAllowanceRequiredForThisUser();
+            e.preventDefault();
+        });
+    })
+</script>
+    
+
+
+    </div>
+    <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer" class="container right">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Kontakt</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+        
+        
+        
+            
+        
+    
+
+
+
+    
+        
+        
+        
+            
+        
+    
+
+    
+        
+            
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                            
+                                            
+                                                
+                                            
+
+                                            
+                                            
+                                        
+                                    
+                                
+                                
+                            
+                        
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+
+    
+        
+        
+            <div class="box-logo">
+                <div class="printImg">
+                    <img class="logoContentRight" src="https://cache.willhaben.at/mmo/logo/atz/19282380/hb_logo_ohne_claim_5111993855700846282_large.png" alt="" border="0">
+                </div>
+                <div class="logoHtml">
+                    <a href="http://www.nach-hause.at" target="_blank" data-company-link=""><img src="https://cache.willhaben.at/mmo/logo/atz/19282380/hb_logo_ohne_claim_5111993855700846282_large.png" class="logoContentRight" border="0" alt="Homepage"></a>
+                </div>
+            </div>
+        
+    
+
+
+
+            
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+    
+    
+                
+
+
+
+
+    
+
+
+
+
+<dt>Firma</dt>
+<dd>Hammerl-Bewo Immobilienpartner</dd>
+
+
+
+                
+
+
+
+
+
+
+
+    
+
+
+
+
+<dt>Name</dt>
+<dd>Kristina Gindl, MSc</dd>
+
+
+            
+
+</dl>
+
+            
+                
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            
+        
+    
+
+
+
+    
+        
+            
+                
+                
+                
+                    
+                        
+                            
+                        
+                        
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+<div class="btn-contact-box">
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+    
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+    
+    
+
+    
+
+
+
+
+
+
+    <a href="javascript:void(0);?xtatc=INT-200" rel="nofollow" name="test" class="btn btn-wh-primary btn-lg btn-prefix" title="ANFRAGE SENDEN">
+        <i class="icon-icon_anfragen"></i>ANFRAGE SENDEN
+    </a>
+</div>
+
+                
+            
+        
+        
+    
+
+
+            
+
+            
+
+
+
+
+
+
+
+<dl class="dl-horizontal">
+    
+    
+                
+
+                
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            
+        
+
+        
+        
+
+
+
+
+<dt>Infos</dt>
+<dd><a href="http://www.nach-hause.at" target="_blank" data-company-link="">Firmenwebsite</a></dd>
+    
+
+                
+                    
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+
+
+    
+        
+            
+            
+                
+                
+            
+        
+    
+
+    
+
+
+
+
+<dt></dt>
+<dd><a href="/iad/immobilien/immobilienmakler-detail?directoryEntry=2&amp;parent=COUNTY&amp;drillkey=MUNICIPALITY&amp;orgId=19282380">Firmenbeschreibung</a></dd>
+
+
+                    
+                
+
+                
+
+
+
+
+
+    
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+    
+        
+        
+        
+            
+            
+        
+    
+
+    
+        
+        
+        
+            
+            
+                
+                
+                    
+                    
+                        
+                        
+                            
+                            
+                            
+                            
+                        
+                    
+                
+            
+            
+        
+    
+
+
+
+
+    
+        <dd class="f-links further">
+            <a rel="nofollow" href="/iad/immobilien/immobilien/angebote?orgId=19282380">
+                <strong>
+                    Weitere Anzeigen von diesem Anbieter
+                </strong>
+            </a>
+        </dd>
+    
+
+
+                
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+                
+
+
+
+
+
+
+
+
+
+    
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+</dl>
+    </div>
+
+    
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+            
+            
+                
+                    
+                
+                
+            
+
+            
+            
+            <!--
+                just for ESTATE_PRICE/PRICE_SUGGESTION section ESTATE_MISC and PLOT_SALE to check if "Miete", "Pacht" or nothing was chosen.
+                RENTAL_PRICE/PER_MONTH has a separate cond.
+            -->
+            
+                
+                
+                
+                
+                
+                    
+                
+            
+
+            
+            
+
+            
+
+            
+                
+                
+                
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="price-box">
+    <div id="priceBox-price" class="price" itemprop="price" content="479.000,00">
+        
+            
+            
+                €&nbsp;479.000,- 
+            
+        
+    </div>
+    <meta itemprop="priceCurrency" content="EUR">
+    
+        <div class="desc">
+            Kaufpreis
+        </div>
+    
+</div>
+
+                
+            
+
+        
+
+        
+
+        
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+    <div class="car-services">
+        
+            
+            
+                
+                
+                
+                    
+                    
+                            <a rel="nofollow" class="play-suffix" href="/iad/adservices?adId=183081495&amp;groupId=6">
+                                    Diese Immobilie versichern
+                            </a>
+                    
+                
+                <br>
+            
+        
+    </div>
+
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block bg-blue ">
+    
+        <div class="box-heading">
+            
+            
+                <h2>Objektstandort</h2>
+            
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+        
+            
+        
+        
+    
+
+
+
+    
+        
+            
+        
+        
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+        
+            
+
+
+
+
+
+
+
+<div itemprop="availableatorfrom" itemscope="" itemtype="http://schema.org/Place">
+    <dt>Adresse</dt>
+    <dd itemprop="Address">8813 Sankt Lambrecht<br>Murau<br>Steiermark</dd>
+</div>
+        
+        
+    
+
+
+    </div>
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block box-body-share ">
+    
+
+    <div class="box-body">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<div class="socialMedia">
+    <div class="shareAd">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <a class="no-text-decoration facebook-icon" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.willhaben.at%2Fiad%2Fobject%3FadId%3D183081495" target="_blank" onclick="return social_media_click(this);"></a>
+    <a class="no-text-decoration twitter-icon" href="https://twitter.com/intent/tweet?hashtags=immobilien%2Cwillhaben&amp;url=https%3A%2F%2Fwww.willhaben.at%2Fiad%2Fobject%3FadId%3D183081495&amp;text=Chalet+dirket+an+der+Skipiste+mit+gro%C3%9Fer+Terrasse+und+Weitblick+%7E+M..." target="_blank" onclick="return social_media_click(this);"></a>
+    <a class="no-text-decoration google-plus-icon" href="https://plus.google.com/share?url=https%3A%2F%2Fwww.willhaben.at%2Fiad%2Fobject%3FadId%3D183081495" target="_blank" onclick="return social_media_click(this);"></a>
+
+    <span class="advertbuttons" style="margin-left: 7px">
+        
+        
+        <a href="javascript:;" class="btn icon-icon_anfragen atbutton tipafriend" rel="nofollow"></a>
+        <a href="javascript:;" class="atbutton tipafriend" rel="nofollow">
+            PER E-MAIL VERSENDEN
+        </a>
+    </span>
+
+
+        
+            <ul>
+                <li>
+                    
+                    <a class="atbutton btn icon-icon_drucken" href="javascript:window.print()" rel="nofollow"></a>
+                    <a href="javascript:window.print()" rel="nofollow">DRUCKEN</a>
+                </li>
+                <li>
+                    
+                    
+                    
+                    
+                </li>
+            </ul>
+        
+    </div>
+</div>
+
+    </div>
+
+    
+</div>
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            
+        
+        
+    
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box-block bg-gray ">
+    
+        <div class="box-heading">
+            
+            
+            
+                <span>Weitere Services zu dieser Immobilie</span>
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        
+                    <div class="car-services-header">
+                        Versichern
+                    </div>
+                    <div class="car-services-box">
+                        
+                            <a rel="nofollow" class="play-prefix" href="https://adfarm1.adition.com/redi?sid=3095054&amp;kid=1778309&amp;bid=6083956" target="_blank" onclick="IADLIB.adservices.incrementCounter(549);">Mit Allianz diese Immobilie versichern</a>
+                            
+                                
+
+
+
+
+
+
+
+<img src="https://adfarm1.adition.com/banner?sid=3095055&amp;kid=1778309&amp;bid=6083966&amp;wpt=C&amp;ts=1485385818" border="0">
+
+
+                            
+                        
+                    </div>
+                
+                    <div class="car-services-header">
+                        Zusatzservices
+                    </div>
+                    <div class="car-services-box">
+                        
+                            <a rel="nofollow" class="play-prefix" href="http://adfarm1.adition.com/redi?sid=3095054&amp;kid=1732170&amp;bid=5930019" target="_blank" onclick="IADLIB.adservices.incrementCounter(527);">TV-Entertainment mit Sky ab € 10,99 mtl.</a>
+                            
+                                
+
+
+
+
+
+
+
+<img src="https://adfarm1.adition.com/banner?sid=3095055&amp;kid=1732170&amp;bid=5930036&amp;wpt=C&amp;ts=1485385818" border="0">
+
+
+                            
+                        
+                            <a rel="nofollow" class="play-prefix" href="https://adfarm1.adition.com/redi?sid=3095055&amp;kid=1775790&amp;bid=6075718" target="_blank" onclick="IADLIB.adservices.incrementCounter(547);">Notare geben Ihren Rechtsfragen Raum</a>
+                            
+                                
+
+
+
+
+
+
+
+<img src="https://adfarm1.adition.com/banner?sid=3095055&amp;kid=1775790&amp;bid=6075718&amp;wpt=C&amp;ts=1485385818" border="0">
+
+
+                            
+                        
+                    </div>
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+</div>
+    
+
+
+
+
+
+
+
+    <div id="adition_RetargetingAdDetail" class="adition_RetargetingAdDetail">
+        <script type="text/javascript">
+            IADLIB.adverserve.renderSlot("adition_RetargetingAdDetail");
+        </script>
+    </div>
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<div class="box-block bg-blue " id="checkImmoBox">
+    
+        <div class="box-heading">
+            
+            
+            
+                <span>Immobilienservice</span>
+            
+        
+        </div>
+    
+
+    <div class="box-body">
+        
+
+
+
+
+
+    
+
+
+
+
+    
+    
+    
+    
+
+
+<ul>
+    <li>
+        <a href="/iad/immobilien-service/grundbuchauszug" id="immo-grundbuch" rel="nofollow" class="">
+            Grundbuchauszug
+        </a>
+    </li>
+    <li>
+        <a href="/iad/immobilien-service/anrainerverzeichnis" id="immo-anrainer" rel="nofollow" class="">
+            Anrainerverzeichnis
+        </a>
+    </li>
+    <li>
+        <a href="/iad/immobilien-service/umfeldinformation" id="immo-umfeld" rel="nofollow" class="">
+            Umfeldinformation
+        </a>
+    </li>
+    <li>
+        <a href="/iad/immobilien-service/preisvergleich" id="immo-preis" rel="nofollow" class="">
+            Preisvergleich
+        </a>
+    </li>
+    <li>
+        <a href="http://www.willhaben.grundriss.com/" id="immo-grundriss" rel="nofollow">Grundriss-Service</a>
+    </li>
+    <li>
+        <a href="https://app.semergy.net/de/willhaben.html" target="_blank" id="immo-sanierung" rel="nofollow">Sanierungsplanung</a>
+    </li>
+</ul>
+
+        <div class="sprite azaRealestateSet checkRealestate"></div>
+    </div>
+
+    
+</div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <script type="text/javascript">
+            
+            IAD.ChooseFolderList.initialize({
+                info: {},
+                urls: {
+                    loading_image: "https://cache.willhaben.at/img/ss_loading.gif",
+                    create_new_folder: "/iad/myprofile/createfolder?ajax=true",
+                    list_user_folders: "/iad/myprofile/listuserfolders?adId=183081495"
+                },
+                text: {
+                    system_error: 'Leider ist ein Systemfehler aufgetreten. Bitte versuche es später noch einmal',
+                    folder_name_not_available: 'Du hast bereits eine Liste mit diesem Namen.',
+                    list_name_required: 'Die Liste muss einen Namen haben.'
+                }
+            });
+
+            IAD.TipAFriend.initialize({
+                info: {
+                    autocomplete_min_chars: 3,
+                    adId: "adId",
+                    user_logged_in: false
+                },
+                urls: {
+                    loading_image: "https://cache.willhaben.at/img/ss_loading.gif",
+                    autocomplete: "/iad/myprofile/autocomplete",
+                    tip_a_friend_form: "/iad/myprofile/tipafriend?adId=183081495",
+                    tip_a_friend_json: "/iad/tipafriendjson",
+                    create_new_folder: "/iad/myprofile/createfolder?ajax=true",
+                    get_contacts: "/iad/myprofile/autocomplete?ajax=true"
+                },
+                text: {
+                    system_error: 'Leider ist ein Systemfehler aufgetreten. Bitte versuche es später noch einmal',
+                    close: 'Schließen'
+                }
+            });
+
+            
+        </script>
+    
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+
+<div class="advert-info-container bottom">
+    <span id="advert-info-whCode">willhaben-Code: 183081495</span> |
+    <span id="advert-info-dateTime">Zuletzt geändert: 23.01.2017 16:51</span>
+
+    
+        <div class="pull-right">
+            
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+        </div>
+    
+</div>
+
+
+
+    <div id="refreshAdsActive" datafld="true"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+    
+        
+        
+            
+        
+    
+    
+
+
+
+    
+    
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+                
+
+
+
+
+
+
+<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+
+
+    
+        <script type="text/javascript">
+            window.criteo_q = window.criteo_q || [];
+            window.criteo_q.push(
+                    { event: "setAccount", account: 26914 },
+                    { event: "setSiteType", type: "d" },
+                    { event: "viewItem", item: "183081495" }
+            );
+        </script>
+    
+    
+    
+
+
+
+
+            
+        
+    
+
+    
+</div>
+
+    
+
+
+
+                    <div class="clearfix footer-banner-object-fullrow" id="objectRowBanner1">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <div class="seo-box">
+        <div class="seo-box-inner">
+            <div class="heading">
+                    Weitere Angebote <a href="/"></a>
+            </div>
+            <div class="content clearfix">
+                
+                
+                    <div class="seo-ads row">
+                        
+                    </div>
+                
+
+                <div class="seo-ads-links">
+                    <div class="seo-link">
+                        <a href="/iad/immobilien/eigentumswohnung/eigentumswohnung-angebote?PROPERTY_TYPE=25&amp;areaId=614">
+                                Weitere Angebote Immobilie zum Kauf in Murau
+                        </a>
+                    </div>
+                    <div class="seo-link">
+                        <a href="/iad/immobilien/eigentumswohnung/eigentumswohnung-angebote?PROPERTY_TYPE=25&amp;areaId=6">
+                                Weitere Angebote Immobilie zum Kauf in Steiermark
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+
+                    <div class="clearfix footer-banner-object-fullrow realestate" id="objectRowBanner2">
+                        <div class="footer-banner-object">
+                            
+                                
+                                
+                                    
+
+
+
+    
+        <div id="footer-banner">
+            <div id="adition_UntenGoogle" class="adition_UntenGoogle"></div>
+        </div>
+    
+
+
+
+                                
+                            
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+
+            <div id="page-footer">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer-info" class="clearfix">
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="http://www.greatplacetowork.at/" target="_blank" id="logo-gptw">
+                        <img src="https://cache.willhaben.at/img/logo_gptw.png" alt="Great Place to Work - Beste Arbeitgeber" id="Great_Place_to_Work" xtclib="Great_Place_to_Work">
+                    </a>
+                </td>
+                <td>
+                    <ul class="footer-navigation clearfix">
+                        
+                        <li class="first"><a href="/iad/contactsupportform" rel="nofollow">Kontakt</a></li>
+                        <li><a href="http://werbung.willhaben.at/" target="_blank">will Werbung</a></li>
+                        <li><a href="http://jobsbei.willhaben.at/" rel="nofollow">Jobs bei willhaben</a></li>
+                        <li><a href="/iad/presse" rel="nofollow">Presse</a></li>
+                        <li><a href="/iad/mobile" rel="nofollow">Mobile und Apps</a></li>
+                        <li class="last"><a href="http://tech.willhaben.at/" target="_blank">Tech Blog</a></li>
+                    </ul>
+                    <ul class="footer-navigation clearfix">
+                        <li class="first"><a href="/iad/help" rel="nofollow">FAQ</a></li>
+                        <li><a href="/iad/sicherheitshinweise" rel="nofollow">Sicherheitshinweise</a></li>
+                        <li><a href="/iad/nutzungsbedingungen" target="_blank" rel="nofollow">Nutzungsbedingungen</a></li>
+                        <li><a href="/iad/agb" target="_blank" rel="nofollow">AGB</a></li>
+                        <li><a href="/iad/impressum" target="_blank" rel="nofollow">Impressum</a></li>
+                        <li class="last"><a href="/iad/sitemap" rel="nofollow">Sitemap</a></li>
+                    </ul>
+                    <p id="copyright">
+                        
+                            © 2017 willhaben. Alle Rechte vorbehalten.
+                        
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script type="text/javascript">
+        // xiti: add attribute to A#logo-gptw img
+        $('#logo-gptw img').each(function () {
+            $(this).attr('xtclib', $(this).attr('id'));
+        });
+    </script>
+</div>
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="smsAllowanceOverlay" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Zu deiner Sicherheit</h4>
+                </div>
+            
+            
+                <div class="modal-body">
+                    <div class="safety-badge-white-border pull-left"></div>
+    <div class="security-message">
+        Um eine mögliche missbräuchliche Nutzung des willhaben-Nachrichtenservices zu verhindern, benötigen wir dein&nbsp;Einverständnis. Bitte akzeptiere diese einmalige Zustimmungserklärung, damit deine&nbsp;Anfrage versendet werden kann.<br>Ich erkläre mich damit einverstanden, dass willhaben alle meine über das willhaben-Nachrichtenservice übermittelten Nachrichten und deren Inhalte speichern, sichten und gegebenenfalls modifizieren kann, sowie die von mir angegebenen personenbezogenen Daten (z.B. E-Mail-Adresse, Name, Telefonnummer, Adresse) als auch die durch meine Nutzung von willhaben entstandenen Verkehrsdaten (insb. IP-Adresse) verarbeitet werden. Zweck dieser Datenverwendung ist die Gewährleistung der Systemsicherheit und die Verbesserung der Nutzersicherheit. Bei konkretem Verdacht auf missbräuchliche Nutzung (z.B. Verstöße gegen die AGB/Nutzungsbedingungen, illegale, insbesondere betrügerische, Aktivitäten) kann willhaben Nachrichten verzögert oder gar nicht zustellen bzw. auf Aufforderung der Strafverfolgungsbehörden hin diese auch an die zuständige Behörde übermitteln. Diese Zustimmung kann ich jederzeit schriftlich per E-Mail an info@willhaben.at widerrufen. willhaben löscht die erhobenen personenbezogenen Daten spätestens 6 Monate nach der letzten Verwendung. Im Übrigen akzeptiere ich die <a title="AGB" href="//www.willhaben.at/iad/agb" target="_blank">AGB</a> der willhaben internet service GmbH u. Co KG.
+    </div>
+                </div>
+            
+            
+                <div class="modal-footer">
+                    <button id="modal-accept" type="submit" class="btn btn-wh-primary btn-lg btn-prefix">
+                <i class="icon-icon_anfragen"></i>
+                <span class="btn-desc">JA, ICH STIMME ZU</span>
+            </button>
+                </div>
+            
+        </div> 
+    </div> 
+</div> 
+
+
+
+    <div id="tower" style="top: 0px; position: fixed;">
+        
+
+
+
+
+
+
+
+
+    <div id="adition_Skyscraper" class="adition_Skyscraper"><div><iframe width="-225px" height="600" seamless="" scrolling="no" frameborder="0" allowtransparency="true" src="about:blank" style="height: 560px;"></iframe><div id="test_adverserve_pos_pix"></div></div></div>
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+<!-- <div class="foottext">
+                
+                
+                    
+                        Code police: Total time: 71ms
+                        of which 17ms is spent in Action, 48ms is spent in Jsp and 6ms is spent in system.<br/>
+                    
+                    
+                
+            </div> -->
+<!-- <div class="foottext">
+        
+    </div> -->
+
+
+
+    
+    
+
+
+
+
+    
+        <!-- <div class="invisible"><b>Hostname:</b> <i>web22.willhaben.apa.net</i></div> -->
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        
+        
+        
+        
+            
+
+
+
+
+
+
+
+
+<div class="oewaBox" style="line-height: 0">
+    <!-- OEWA VERSION="1.62" -->
+    
+
+    <script type="text/javascript">
+        var OEWA = {
+            "s": "willhab",
+            "cp": "Service/Rubrikenmaerkte/Immobilienmarkt/Haeuser_zu_verkaufen/DA/Steiermark"
+        };
+        oewa.c(OEWA);
+    </script><img src="https://willhab.oewabox.at/j0=,,,;+,cp=Service%2FRubrikenmaerkte%2FImmobilienmarkt%2FHaeuser_zu_verkaufen%2FDA%2FSteiermark+ssl=1+hn=www.willhaben.at;;;?lt=iydk5yc7&amp;x=1920x1080x24" width="1" height="1">
+</div>
+
+
+    
+    
+
+
+        
+        
+
+        
+        
+
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+        
+    
+    
+    
+        
+    
+    
+    
+        
+    
+    
+        
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+    
+    
+        
+        
+            
+        
+    
+
+
+
+
+
+<script type="text/javascript">
+    xt_multc = "&x1=2&x2=1&x3=99925&x4=1&x5=6&x6=183081495&x7=willhaben&x8=2";
+    //do not modify below
+    if (window.xtparam != null) {
+        window.xtparam += xt_multc;
+    } else {
+        window.xtparam = xt_multc;
+    }
+</script>
+
+
+<script type="text/javascript">
+    xtnv = document;            //parent.document or top.document or document
+    xtsd = "http://logc135";
+    if (document.location.protocol === 'https:') {
+        xtsd = "https://logs152";
+    }
+    xtsite = "397816";       // Xiti's id for our environment (prod, dev etc.)
+    xtn2 = "2";       // level 2 site -- Vertical (roughly)
+    xtpage = "haus_kaufen::steiermark::murau::ad_detail";       // page name (with the use of :: to create chapters)
+    xtdi = "";                  // implication degree
+
+    xt_ac = ""; // category, like logged in user
+    xt_an = ""; // numeric identifier
+
+    if (window.xtparam !== null) {
+        window.xtparam += "&ac=" + xt_ac + "&an=" + xt_an + xt_multc;
+    } else {
+        window.xtparam = "&ac=" + xt_ac + "&an=" + xt_an + xt_multc;
+    }
+</script>
+
+<noscript>
+    &lt;img width="0" height="0" alt="" src="https://logs152.xiti.com/hit.xiti?s=397816&amp;amp;s2=2&amp;amp;p=haus_kaufen::steiermark::murau::ad_detail&amp;amp;di=&amp;amp;rn=5227437891&amp;amp;ac=&amp;amp;an="&gt;
+</noscript>
+
+
+
+
+    
+    
+
+
+
+            
+            <script type="text/javascript" src="https://cache.willhaben.at/clientscript/lib/xiti/xtclicks.js"></script>
+
+            
+            
+                
+                    <script type="text/javascript" src="https://cache.willhaben.at/clientscript/lib/xiti/xtcore_v4.6.4.js"></script>
+                
+                
+            
+
+            
+            <script type="text/javascript">
+                <!--
+                if (typeof(xtclzone) != 'undefined' && xtclzone > 0) {
+                    xtNodesload();
+                }
+                //-->
+            </script>
+        
+        
+
+        
+            
+                
+                
+            
+        
+
+    
+
+
+<!-- Server response time: 26.01.2017 00:10 -->
+
+<script type="text/javascript">
+    IADLIB.adverserve.whtime = [2017, 01, 26, 00, 10, 18];
+</script>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+    
+    
+    
+
+
+    
+    
+        
+        
+
+
+
+    
+    
+
+
+        
+
+        
+        
+            
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+    
+
+    
+        
+        
+        
+        
+    
+
+    
+
+
+
+
+
+    <script type="text/javascript">
+        var google_conversion_id = 992925669;
+        var google_conversion_language = "de";
+        var google_conversion_format = "3";
+        var google_conversion_color = "666666";
+        var google_conversion_label = "HUr5CIOfogIQ5a-72QM";
+        var google_conversion_value = 0;
+    </script>
+    <div style="display:none;">
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+            &lt;img height="0" width="0" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/992925669/?value=0&amp;amp;label=HUr5CIOfogIQ5a-72QM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+        </noscript>
+    </div>
+
+
+
+
+<script type="text/javascript">
+    function trackConversion(conversionId, conversionLabel){
+        image = new Image(1,1);
+        image.src = "//www.googleadservices.com/pagead/conversion/"+conversionId+"/?label="+conversionLabel+"&script=0";
+    }
+
+    function trackConversionJobOnlineApply() {
+        trackConversion('992925669','-C-5CMuWkwIQ5a-72QM');
+    }
+</script>
+
+
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 992925669;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<div style="display:none;">
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script><img height="1" width="1" border="0" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/992925669/?random=1485385483596&amp;cv=8&amp;fst=1485385483588&amp;num=2&amp;fmt=1&amp;guid=ON&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1052&amp;u_aw=1920&amp;u_cd=24&amp;u_his=2&amp;u_tz=60&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=https%3A%2F%2Fwww.willhaben.at%2Fiad%2Fimmobilien%2Fhaus-kaufen%2Fsteiermark%2Fmurau%2Fabc-183081495%2F&amp;tiba=Chalet%20dirket%20an%20der%20Skipiste%20mit%20gro%C3%9Fer%20Terrasse%20und%20Weitblick%20~%20Mountain%20Resort%20St.%20Lamprecht%2C%20159%20m%C2%B2%2C%20%E2%82%AC%20479.000%2C-%2C%20(8813%20Sankt%20Lambrecht)%20-%20willhaben" style="display:none">
+    <noscript>
+        &lt;img height="0" width="0" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/992925669/?value=0&amp;guid=ON&amp;script=0"/&gt;
+    </noscript>
+</div>
+
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 978006293;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<div style="display:none;">
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script><img height="1" width="1" border="0" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/978006293/?random=1485385483610&amp;cv=8&amp;fst=1485385483588&amp;num=3&amp;fmt=1&amp;guid=ON&amp;eid=376635471&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1052&amp;u_aw=1920&amp;u_cd=24&amp;u_his=2&amp;u_tz=60&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;frm=0&amp;url=https%3A%2F%2Fwww.willhaben.at%2Fiad%2Fimmobilien%2Fhaus-kaufen%2Fsteiermark%2Fmurau%2Fabc-183081495%2F&amp;tiba=Chalet%20dirket%20an%20der%20Skipiste%20mit%20gro%C3%9Fer%20Terrasse%20und%20Weitblick%20~%20Mountain%20Resort%20St.%20Lamprecht%2C%20159%20m%C2%B2%2C%20%E2%82%AC%20479.000%2C-%2C%20(8813%20Sankt%20Lambrecht)%20-%20willhaben" style="display:none"><iframe name="google_cookie_match_frame" title="Google cookie match frame" width="1" height="1" src="https://bid.g.doubleclick.net/xbbe/pixel?d=KAE" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" style="display:none" scrolling="no"></iframe>
+    <noscript>
+        &lt;img height="0" width="0" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/978006293/?value=0&amp;guid=ON&amp;script=0"/&gt;
+    </noscript>
+</div>
+
+
+        
+
+        
+        
+<script type="text/javascript" src="https://cdn.optimizely.com/js/1783020031.js"></script>
+
+
+        <div id="cookie-hint" style="display: block;">
+    <div class="row">
+        <div class="hint col-xs-11">Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für
+            soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Durch die Nutzung
+            unserer Angebote erklärst du dich mit dem Setzen von Cookies einverstanden.
+            <br><a href="https://www.willhaben.at/iad/nutzungsbedingungen">Details ansehen</a>
+        </div>
+        <div class="col-xs-1 okbutton">
+            <button id="okcookie" class="btn btn-wh-primary" type="button">OK</button>
+        </div>
+    </div>
+</div>
+
+        
+
+
+
+
+
+    
+    
+        
+            
+        
+        
+    
+
+
+
+    <script src="https://js.revsci.net/gateway/gw.js?csid=F09828&amp;auto=t&amp;bpid=styria"></script>
+
+
+    
+    
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+<iframe hidden=""></iframe><div id="criteo-tags-div" style="display: none;"><iframe height="0" width="0" src="//dis.eu.criteo.com/dis/dis.aspx?p=26914&amp;cb=65121692478&amp;ref=&amp;sc_r=1920x1080&amp;sc_d=24" style="display: none;"></iframe></div>
