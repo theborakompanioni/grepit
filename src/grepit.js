@@ -19,24 +19,29 @@ var _ = require('lodash');
  */
 
 module.exports = function (links, options) {
+  var _links = (links || []).map(link => {
+    return URL.parse(link);
+  }).filter(link => !!link);
+
   var _options = _.defaults(options, {
     outputDirectory: 'out'
   });
 
   return function *() {
     //run the page HTML retrieval and save for each link
-    for (var ix in links) {
-      var page = yield nightmare.goto(links[ix])
+    for (var idx in _links) {
+      var page = yield nightmare.goto(_links[idx].href)
         .evaluate(function () {
-          var body = document.querySelector('body');
-          return body.innerHTML;
+          var html = document.querySelector('html');
+          if (!html) {
+            return '## grepit: no html tag found';
+          }
+          return html.innerHTML;
         });
 
-      var url = URL.parse(links[ix]);
-      var filename = url.hostname + '.txt';
+      var filename = _links[idx].hostname + '.txt';
       var out = _options.outputDirectory + '/' + filename;
-      fs.writeFileSync(filename, page);
-
+      fs.writeFileSync(out, page);
     }
     yield nightmare.end();
   };
