@@ -7,12 +7,11 @@ var mkdirp = require('mkdirp');
 
 
 var inputFiles = 'examples/links.txt';
-var outputDirectory = mkdirp('out', function(err) {
+var outputDirectory = mkdirp('out', function (err) {
 
   // path exists unless there was an error
 
 });
-
 
 //split the read links on operating-specific newlines into an array
 var links = fs.readFileSync(inputFiles)
@@ -29,7 +28,8 @@ var links = fs.readFileSync(inputFiles)
 
 
 var run = grepit(links, {
-  outputDirectory: outputDirectory
+  outputDirectory: outputDirectory,
+  querySelector: 'html'
 });
 
 vo(run)(function (err) {
