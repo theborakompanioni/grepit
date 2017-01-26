@@ -9,7 +9,6 @@
     "test": "npm run test-server",
     "test-server-dd": "node test/grepit.spec.js",
     "test-server": "mocha test --recursive --bail --require babel-core/register mocha.config.js",
-
     "tdd": "npm run test-server -- --watch"
   },
   "repository": "theborakompanioni/grepit",
@@ -48,6 +47,7 @@
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "nightmare": "^2.9.1",
+    "sanitize-filename": "^1.6.1",
     "vo": "^4.0.2"
   }
 }
