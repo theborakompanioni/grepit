@@ -13,6 +13,14 @@ $ npm install --save grepit
 ## Usage
 ```js
 var grepit = require('grepit');
+
+var download = grepit([
+  'http://www.google.com'
+]);
+
+var gen = download();
+gen.next();
+
 ```
 
 ## API
