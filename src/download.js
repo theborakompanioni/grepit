@@ -23,8 +23,8 @@ var parseAsUrls = function (links) {
      * URL e.g.:
      * auth = null
      * hash = null
-     * hostname = "blog.fefe.de"
-     * href = "http://blog.fefe.de/?ts=a6762575"
+     * hostname = "www.google.com"
+     * href = "http://www.google.com/?ts=a6762575"
      * path = "/?ts=a6762575"
      * pathname = "/"
      * port = null
@@ -35,6 +35,7 @@ var parseAsUrls = function (links) {
     return URL.parse(link);
   }).filter(link => !!link);
 };
+
 /**
  * grepit
  * Description
@@ -43,10 +44,13 @@ var parseAsUrls = function (links) {
  * @function
  * @param {Array} links An array of links
  * @param {Object} options An object containing the following fields:
+ * - {String} outputDirectory
+ * - {Number} fetchTimeout
+ * - {Object} switches
+ * - {Boolean} debug
  *
  * @return {function} Result
  */
-
 module.exports = function (links, options) {
   var _links = parseAsUrls(links);
 
@@ -59,9 +63,9 @@ module.exports = function (links, options) {
     gotoTimeout: _options.fetchTimeout,
     show: _options.showBrowser,
     switches: _options.switches || {},
-    openDevTools: !_options.debug ? {} : {
+    openDevTools: !_options.debug ? null : {
       mode: 'detach'
-    },
+    }
   })
     .useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36");
 

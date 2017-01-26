@@ -6,9 +6,8 @@
   "scripts": {
     "run": "node $NODE_DEBUG_OPTION index.js",
     "start": "node $NODE_DEBUG_OPTION index.js start",
-    "precommit": "npm test && npm run start",
+    "precommit": "npm test",
     "test": "npm run test-server",
-    "test-server-dd": "node test/download.spec.js",
     "test-server": "mocha test --recursive --bail --require babel-core/register mocha.config.js",
     "tdd": "npm run test-server -- --watch"
   },
@@ -24,6 +23,7 @@
     "babel-eslint": "^4.1.4",
     "babel-loader": "^5.3.3",
     "chai": "^3.2.0",
+    "chai-fs": "^1.0.0",
     "eslint": "^1.4.1",
     "eslint-plugin-babel": "^2.1.1",
     "husky": "^0.10.1",
