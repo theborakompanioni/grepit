@@ -1,10 +1,4 @@
 var Nightmare1 = require('nightmare');
-var nightmare = Nightmare1({
-  show: false, // true
-  'proxy-server': '1.2.3.4:5678',
-  'ignore-certificate-errors': true
-})
-  .useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36");
 var fs = require('fs');
 var URL = require('url');
 var sanitizeFilename = require("sanitize-filename");
@@ -56,6 +50,18 @@ module.exports = function (links, options) {
   var outputDirectory = sanitizeFilename(_options.outputDirectory);
   mkdirp.sync(outputDirectory);
 
+  var nightmare = Nightmare1({
+    show: false, // true
+    switches: {
+      //'proxy-server': '1.2.3.4:5678',
+      //'ignore-certificate-errors': true
+    },
+    openDevTools: {
+      //mode: 'detach'
+    },
+  })
+    .useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36");
+
   return function *() {
     //run the page HTML retrieval and save for each link
     for (var idx in _links) {
@@ -73,6 +79,8 @@ module.exports = function (links, options) {
         console.log('fetching ' + link.href);
 
         var page = yield nightmare.goto(link.href)
+          .pdf(out + '.pdf', 'HTMLOnly')
+          .html(out, 'HTMLOnly')
           .evaluate(function (link, querySelector) {
             var html = document.querySelector(querySelector);
             if (!html) {
@@ -81,7 +89,7 @@ module.exports = function (links, options) {
             return html.innerHTML;
           }, link, querySelector);
 
-        fs.writeFileSync(out, page);
+        //fs.writeFileSync(out, page);
         console.log('successfully written to file ' + out);
       }
     }
