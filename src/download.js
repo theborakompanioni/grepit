@@ -79,7 +79,6 @@ module.exports = function (links, options) {
         console.log('fetching ' + link.href);
 
         var page = yield nightmare.goto(link.href)
-          .pdf(out + '.pdf', 'HTMLOnly')
           .html(out, 'HTMLOnly');
 
         console.log('successfully written to file ' + out);

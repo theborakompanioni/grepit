@@ -8,7 +8,7 @@
     "start": "node $NODE_DEBUG_OPTION index.js start",
     "precommit": "npm test && npm run start",
     "test": "npm run test-server",
-    "test-server-dd": "node test/grepit.spec.js",
+    "test-server-dd": "node test/download.spec.js",
     "test-server": "mocha test --recursive --bail --require babel-core/register mocha.config.js",
     "tdd": "npm run test-server -- --watch"
   },
@@ -33,8 +33,7 @@
     "phantomjs-polyfill": "0.0.1",
     "rimraf": "^2.4.3",
     "sinon": "^1.17.2",
-    "sinon-chai": "^2.8.0",
-    "webpack": "^1.12.2"
+    "sinon-chai": "^2.8.0"
   },
   "author": {
     "name": "theborakompanioni",

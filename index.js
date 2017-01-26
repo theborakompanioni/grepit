@@ -1,6 +1,6 @@
 var chunkArray = require('./src/util/chunkArray');
 var shuffleArray = require('./src/util/shuffleArray');
-var grepit = require('./src/grepit');
+var download = require('./src/download');
 
 var fs = require('fs');
 var vo = require('vo');
@@ -19,11 +19,21 @@ var DEFAULT_OPTIONS = _.defaults({}, {
   shuffleLinks: true,
   debug: true
 });
-var DEFAULT_GREPIT_OPTIONS = _.defaults({}, {
-  outputDirectory: 'out',
-  debug: DEFAULT_OPTIONS.debug,
-  showBrowser: DEFAULT_OPTIONS.showBrowser
-});
+
+var readInputFiles = function readInputFiles(inputDirectory) {
+//split the read links on operating-specific newlines into an array
+  return fs.readFileSync(inputDirectory)
+    .toString()
+    .split(SYSTEM_EOL)
+    .filter(link => {
+      //filter out blank lines
+      return !(/^\s*$/.test(link));
+    })
+    .filter(link => {
+      //filter out non http links
+      return (/^http.*$/.test(link));
+    });
+};
 
 commander
   .version('0.0.1')
@@ -39,31 +49,20 @@ commander
   .option('-i, --browser-instances [browser]', 'Number of browsers to use.', DEFAULT_OPTIONS.browserInstances)
   .option('-b, --show-browser [show]', 'Whether to show the browser window or run in headless mode.', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-links [shuffle]', 'Whether to shuffle input data before executing', DEFAULT_OPTIONS.shuffleLinks)
-  .action(function (cmd, options) {
+  .action(function (cmd) {
+    var options = _.defaults(cmd, DEFAULT_OPTIONS);
 
-
-//split the read links on operating-specific newlines into an array
-    var links = fs.readFileSync(cmd.inputDirectory)
-      .toString()
-      .split(SYSTEM_EOL)
-      .filter(link => {
-        //filter out blank lines
-        return !(/^\s*$/.test(link));
-      })
-      .filter(link => {
-        //filter out non http links
-        return (/^http.*$/.test(link));
-      });
+    var links = readInputFiles(options.inputDirectory);
 
     var calcChunkSize = (links) => {
-      return links.length <= cmd.browserInstances ? links.length : Math.ceil(links.length / cmd.browserInstances);
+      return links.length <= options.browserInstances ? links.length : Math.ceil(links.length / options.browserInstances);
     };
 
-    var shuffledOrOrderedLinks = cmd.shuffleLinks ? shuffleArray(links) : links;
+    var shuffledOrOrderedLinks = options.shuffleLinks ? shuffleArray(links) : links;
     var chunkedLinkLists = chunkArray(shuffledOrOrderedLinks, calcChunkSize(links));
 
     var runnables = chunkedLinkLists
-      .map(links => grepit(links, _.defaults(cmd, DEFAULT_GREPIT_OPTIONS)));
+      .map(links => download(links, options));
 
     vo(runnables)
       .then(foo => console.log('done'))
