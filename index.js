@@ -15,9 +15,10 @@ var DEFAULT_OPTIONS = _.defaults({}, {
   inputDirectory: 'examples/links.txt',
   outputDirectory: 'out',
   browserInstances: Math.max(cpuCoresCount, 1),
-  showBrowser: true,
-  shuffleLinks: true,
-  debug: true
+  fetchTimeout: 10000,
+  showBrowser: false,
+  shuffleLinks: false,
+  debug: false
 });
 
 var readInputFiles = function readInputFiles(inputDirectory) {
@@ -40,13 +41,20 @@ commander
   .option('-v, --verbose', 'Display more fine grained log messages.')
   .option('-debug, --debug', 'Display more fine grained log messages.');
 
+commander.command('help', null, {isDefault: true})
+  .description('display help information.')
+  .action(function () {
+    commander.outputHelp();
+  });
+
 commander
   .command('download')
   .alias('start')
   .description('start downloading page contents to output directory')
   .option('-i, --input-directory [indir]', 'The directory where to load inputs from.', DEFAULT_OPTIONS.inputDirectory)
   .option('-o, --output-directory [outdir]', 'The directory where results are saved.', DEFAULT_OPTIONS.outputDirectory)
-  .option('-i, --browser-instances [browser]', 'Number of browsers to use.', DEFAULT_OPTIONS.browserInstances)
+  .option('-i, --browser-instances [browser]', 'Number of browsers to use.', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
+  .option('-i, --fetch-timeout [timeout]', 'Number of browsers to use.', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-b, --show-browser [show]', 'Whether to show the browser window or run in headless mode.', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-links [shuffle]', 'Whether to shuffle input data before executing', DEFAULT_OPTIONS.shuffleLinks)
   .action(function (cmd) {
@@ -72,8 +80,8 @@ commander
 commander
   .command('*')
   .action(function (env) {
-    console.log('deploying "%s"', env);
+    console.warn('command not implemented:  "%s"', env);
+    commander.outputHelp();
   });
-
 
 commander.parse(process.argv);

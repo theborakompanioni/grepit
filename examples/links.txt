@@ -1,8 +1,6 @@
---http://blog.fefe.de/?ts=a6763fad
-http://blog.fefe.de/?ts=a6762575
-https://github.com/segmentio/nightmare/issues/557
-https://github.com/segmentio/nightmare/issues/556
-https://github.com/segmentio/nightmare/issues/555
+--https://github.com/segmentio/nightmare/issues/557
+--https://github.com/segmentio/nightmare/issues/556
+--https://github.com/segmentio/nightmare/issues/555
 https://github.com/segmentio/nightmare/issues/554
 https://github.com/segmentio/nightmare/issues/553
 https://github.com/segmentio/nightmare/issues/552
@@ -18,5 +16,3 @@ https://github.com/segmentio/nightmare/issues/543
 https://github.com/segmentio/nightmare/issues/542
 https://github.com/segmentio/nightmare/issues/541
 https://github.com/segmentio/nightmare/issues/540
---http://www.willhaben.at/iad/immobilien/haus-kaufen/steiermark/murau/abc-183081495/
---http://www.orf.at

@@ -7,8 +7,13 @@ var _ = require('lodash');
 
 var DEFAULT_OPTIONS = {
   outputDirectory: 'out',
-  showBrowser: true,
-  debug: true
+  fetchTimeout: 10000/* in ms */,
+  switches: {
+    //'proxy-server': '1.2.3.4:5678',
+    //'ignore-certificate-errors': true
+  },
+  showBrowser: false,
+  debug: false
 };
 
 
@@ -51,11 +56,9 @@ module.exports = function (links, options) {
   mkdirp.sync(outputDirectory);
 
   var nightmare = Nightmare1({
-    show: true,//false, // true
-    switches: {
-      //'proxy-server': '1.2.3.4:5678',
-      //'ignore-certificate-errors': true
-    },
+    gotoTimeout: _options.fetchTimeout,
+    show: _options.showBrowser,
+    switches: _options.switches || {},
     openDevTools: !_options.debug ? {} : {
       mode: 'detach'
     },
