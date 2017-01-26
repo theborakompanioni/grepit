@@ -1,4 +1,3 @@
-
 var Nightmare1 = require('nightmare');
 var fs = require('fs');
 var URL = require('url');
@@ -7,7 +6,9 @@ var mkdirp = require('mkdirp');
 var _ = require('lodash');
 
 var DEFAULT_OPTIONS = {
-  outputDirectory: 'out'
+  outputDirectory: 'out',
+  showBrowser: true,
+  debug: true
 };
 
 
@@ -55,8 +56,8 @@ module.exports = function (links, options) {
       //'proxy-server': '1.2.3.4:5678',
       //'ignore-certificate-errors': true
     },
-    openDevTools: {
-      //mode: 'detach'
+    openDevTools: !_options.debug ? {} : {
+      mode: 'detach'
     },
   })
     .useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36");

@@ -14,10 +14,14 @@ var options = _.defaults({}, {
   inputFiles: 'examples/links.txt',
   outputDirectory: 'out',
   browserInstances: Math.max(cpuCoresCount, 1),
-  shuffleLinks: true
+  showBrowser: true,
+  shuffleLinks: true,
+  debug: true
 });
 var grepitOptions = _.defaults({}, {
-  outputDirectory: 'out'
+  outputDirectory: 'out',
+  debug: options.debug,
+  showBrowser: options.showBrowser
 });
 
 //split the read links on operating-specific newlines into an array
