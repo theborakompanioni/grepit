@@ -60,7 +60,6 @@ module.exports = function (links, options) {
     //run the page HTML retrieval and save for each link
     for (var idx in _links) {
       var link = _links[idx];
-      console.log('fetching ' + link.href);
 
       var filename = sanitizeFilename(link.href + '.txt');
       var hostOutputDirectory = outputDirectory + '/' + sanitizeFilename(link.host);
@@ -68,17 +67,23 @@ module.exports = function (links, options) {
 
       var out = hostOutputDirectory + '/' + filename;
 
-      var page = yield nightmare.goto(link.href)
-        .evaluate(function (link, querySelector) {
-          var html = document.querySelector(querySelector);
-          if (!html) {
-            return '## grepit: no ' + querySelector + ' tag found';
-          }
-          return html.innerHTML;
-        }, link, querySelector);
+      if (fs.existsSync(out)) {
+        console.log('skipping ' + link.href + ' as it already exists.');
+      } else {
+        console.log('fetching ' + link.href);
 
-      fs.writeFileSync(out, page);
-      console.log('successfully written to file ' + out);
+        var page = yield nightmare.goto(link.href)
+          .evaluate(function (link, querySelector) {
+            var html = document.querySelector(querySelector);
+            if (!html) {
+              return '## grepit: no ' + querySelector + ' tag found';
+            }
+            return html.innerHTML;
+          }, link, querySelector);
+
+        fs.writeFileSync(out, page);
+        console.log('successfully written to file ' + out);
+      }
     }
     yield nightmare.end();
   };
