@@ -1,3 +1,4 @@
+
 var Nightmare1 = require('nightmare');
 var fs = require('fs');
 var URL = require('url');
@@ -6,8 +7,7 @@ var mkdirp = require('mkdirp');
 var _ = require('lodash');
 
 var DEFAULT_OPTIONS = {
-  outputDirectory: 'out',
-  querySelector: 'html'
+  outputDirectory: 'out'
 };
 
 
@@ -46,12 +46,11 @@ module.exports = function (links, options) {
 
   var _options = _.defaults(options, DEFAULT_OPTIONS);
 
-  var querySelector = _options.querySelector;
   var outputDirectory = sanitizeFilename(_options.outputDirectory);
   mkdirp.sync(outputDirectory);
 
   var nightmare = Nightmare1({
-    show: false, // true
+    show: true,//false, // true
     switches: {
       //'proxy-server': '1.2.3.4:5678',
       //'ignore-certificate-errors': true
@@ -80,16 +79,8 @@ module.exports = function (links, options) {
 
         var page = yield nightmare.goto(link.href)
           .pdf(out + '.pdf', 'HTMLOnly')
-          .html(out, 'HTMLOnly')
-          .evaluate(function (link, querySelector) {
-            var html = document.querySelector(querySelector);
-            if (!html) {
-              return '## grepit: no ' + querySelector + ' tag found';
-            }
-            return html.innerHTML;
-          }, link, querySelector);
+          .html(out, 'HTMLOnly');
 
-        //fs.writeFileSync(out, page);
         console.log('successfully written to file ' + out);
       }
     }
