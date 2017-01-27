@@ -2,7 +2,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][depstat-image]][depstat-url]
 
-> Description
+> persist web content
 
 ## Installation
 
@@ -11,6 +11,52 @@ $ npm install --save grepit
 ```
 
 ## Usage
+
+```
+$ node grepit download \
+  --input-directory my_input_dir \
+  --output-direcotry my_output_directory
+```
+
+```
+$ node grepit --help
+
+  Usage: grepit [options] [command]
+
+  Commands:
+
+    help                       display help information
+    download|start [options]   start downloading page contents to output directory
+    *
+
+  Options:
+
+    -h, --help       output usage information
+    -V, --version    output the version number
+    -v, --verbose    display more fine grained log messages
+    -debug, --debug  run in debug mod
+```
+
+```
+$ node grepit download --help
+
+  Usage: download|start [options]
+
+  start downloading page contents to output directory
+
+  Options:
+
+    -h, --help                         output usage information
+    -i, --input-directory [indir]      the directory where to load inputs from
+    -o, --output-directory [outdir]    the directory where results are saved
+    -i, --browser-instances [browser]  number of browsers to use
+    -i, --fetch-timeout [timeout]      number of browsers to use
+    -b, --show-browser [show]          whether to show the browser window or run in headless mode
+    -s, --shuffle-links [shuffle]      whether to shuffle input data before executing
+
+```
+
+## Code
 ```js
 var grepit = require('grepit');
 
@@ -19,21 +65,10 @@ var download = grepit([
 ]);
 
 var gen = download();
-gen.next();
-
+var page = gen.next().value;
+// ...
 ```
 
-## API
-
-### `grepit(data, [options])`
-Description
-
-#### Parameters
-- **Array** `data`: An array of data
-- **Object** `options`: An object containing the following fields:
-
-#### Return
-- **Array** - Result
 
 ## License
 MIT © [theborakompanioni](http://github.com/theborakompanioni)
