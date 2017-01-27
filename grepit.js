@@ -19,7 +19,8 @@ var DEFAULT_OPTIONS = _.defaults({}, {
   fetchTimeout: 10000,
   showBrowser: false,
   shuffleInput: false,
-  debug: false
+  debug: false,
+  saveType: 'HTMLOnly'
 });
 
 var readInputFiles = function readInputFiles(inputDirectory) {
@@ -66,6 +67,7 @@ commander
   .option('-i, --fetch-timeout [timeout]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-b, --show-browser [show]', 'whether to show the browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-input [shuffle]', 'whether to shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
+  .option('-s, --save-type [type]', 'type in which to persist outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
   .action(function (cmd) {
     var options = _.defaults(cmd, DEFAULT_OPTIONS);
 

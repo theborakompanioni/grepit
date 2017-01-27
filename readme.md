@@ -24,7 +24,8 @@ $ node grepit download \
   --browser-instances 4 \
   --fetch-timeout 10000 \
   --show-browser true \
-  --shuffle-input true
+  --shuffle-input true \
+  --save-type HTMLOnly
 ```
 
 ```
@@ -64,6 +65,13 @@ $ node grepit download --help
     -s, --shuffle-input [shuffle]      whether to shuffle input data before executing
 
 ```
+
+saveType String - Specify the save type.
+- `HTMLOnly` - Save only the HTML of the page.
+- `HTMLComplete` - Save complete-html page.
+- `MHTML` - Save complete-html page as MHTML.
+See [electron savetype info](https://github.com/electron/electron/blob/master/docs/api/web-contents.md#webcontentssavepagefullpath-savetype-callback)
+
 
 ## Development
 ```

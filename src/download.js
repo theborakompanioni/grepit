@@ -14,7 +14,8 @@ var DEFAULT_OPTIONS = {
     //'ignore-certificate-errors': true
   },
   showBrowser: false,
-  debug: false
+  debug: false,
+  saveType: 'HTMLOnly'
 };
 
 
@@ -87,7 +88,7 @@ module.exports = function (links, options) {
         console.log('fetching ' + link.href);
 
         var page = yield nightmare.goto(link.href)
-          .html(out, 'HTMLOnly');
+          .html(out, _options.saveType);
 
         console.log('successfully written to file ' + out);
       }
