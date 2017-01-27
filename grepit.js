@@ -18,7 +18,7 @@ var DEFAULT_OPTIONS = _.defaults({}, {
   browserInstances: Math.max(cpuCoresCount, 1),
   fetchTimeout: 10000,
   showBrowser: false,
-  shuffleLinks: false,
+  shuffleInput: false,
   debug: false
 });
 
@@ -65,7 +65,7 @@ commander
   .option('-i, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
   .option('-i, --fetch-timeout [timeout]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-b, --show-browser [show]', 'whether to show the browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
-  .option('-s, --shuffle-links [shuffle]', 'whether to shuffle input data before executing', DEFAULT_OPTIONS.shuffleLinks)
+  .option('-s, --shuffle-input [shuffle]', 'whether to shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .action(function (cmd) {
     var options = _.defaults(cmd, DEFAULT_OPTIONS);
 
@@ -75,7 +75,7 @@ commander
       return links.length <= options.browserInstances ? links.length : Math.ceil(links.length / options.browserInstances);
     };
 
-    var shuffledOrOrderedLinks = options.shuffleLinks ? shuffleArray(links) : links;
+    var shuffledOrOrderedLinks = options.shuffleInput ? shuffleArray(links) : links;
     var chunkedLinkLists = chunkArray(shuffledOrOrderedLinks, calcChunkSize(links));
 
     var runnables = chunkedLinkLists
