@@ -5,6 +5,7 @@ var URL = require('url');
 var sanitizeFilename = require("sanitize-filename");
 var mkdirp = require('mkdirp');
 var _ = require('lodash');
+var random_useragent = require('random-useragent');
 
 var DEFAULT_OPTIONS = {
   outputDirectory: 'out',
@@ -18,7 +19,12 @@ var DEFAULT_OPTIONS = {
   saveType: 'HTMLOnly',
   screenshot: false,
   pdf: false,
-  html: true
+  html: true,
+  viewport: {
+    width: 1366,
+    height: 768
+  },
+  userAgent: random_useragent.getRandom()
 };
 
 
@@ -76,7 +82,8 @@ module.exports = function (links, options) {
             mode: 'detach'
           }
         })
-          .useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36");
+          .viewport(config.viewport.width, config.viewport.height)
+          .useragent(config.userAgent);
       }
       return val;
     }
