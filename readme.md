@@ -16,6 +16,12 @@ $ npm install
 ```
 
 ## Usage
+Place text files with URLs in a directory and run:
+```
+$ node grepit download \
+  --input-directory my_input_dir \
+  --output-directory out
+```
 
 ```
 $ node grepit download \
@@ -23,9 +29,11 @@ $ node grepit download \
   --output-directory my_output_directory \
   --browser-instances 4 \
   --fetch-timeout 10000 \
-  --show-browser true \
-  --shuffle-input true \
+  --show-browser \
+  --shuffle-input \
   --save-type HTMLOnly
+  --screenshot
+  --pdf
 ```
 
 ```

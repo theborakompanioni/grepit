@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 
 describe('download', () => {
+  var outputDirectory = 'test-out';
 
   it('should do nothing on empty array', function () {
     var testTimeout = 5 * 1000;
@@ -22,7 +23,6 @@ describe('download', () => {
   it('should fetch and save google.com index page', function (done) {
     var testTimeout = 20 * 1000;
     this.timeout(testTimeout);
-    var outputDirectory = 'test-out';
 
     var links = ['http://www.google.com'];
     var run = download(links, {
@@ -33,7 +33,7 @@ describe('download', () => {
 
     vo([run])
       .then(foo => {
-        var createdDirectory = outputDirectory + '/' + 'www.google.com';
+        var createdDirectory = path.resolve(outputDirectory, 'www.google.com');
 
         expect(createdDirectory).to.be.a.directory();
         var createdFile = path.resolve(createdDirectory, 'httpwww.google.com.txt');
@@ -53,7 +53,6 @@ describe('download', () => {
   it('should take screenshot of google.com index page', function (done) {
     var testTimeout = 20 * 1000;
     this.timeout(testTimeout);
-    var outputDirectory = 'test-out';
 
     var links = ['http://www.google.com'];
     var run = download(links, {
@@ -66,7 +65,7 @@ describe('download', () => {
 
     vo([run])
       .then(foo => {
-        var createdDirectory = outputDirectory + '/' + 'www.google.com';
+        var createdDirectory = path.resolve(outputDirectory, 'www.google.com');
 
         expect(createdDirectory).to.be.a.directory();
         var createdFile = path.resolve(createdDirectory, 'httpwww.google.com.png');
@@ -85,7 +84,6 @@ describe('download', () => {
   it('should create pdf of google.com index page', function (done) {
     var testTimeout = 20 * 1000;
     this.timeout(testTimeout);
-    var outputDirectory = 'test-out';
 
     var links = ['http://www.google.com'];
     var run = download(links, {
@@ -98,7 +96,7 @@ describe('download', () => {
 
     vo([run])
       .then(foo => {
-        var createdDirectory = outputDirectory + '/' + 'www.google.com';
+        var createdDirectory = path.resolve(outputDirectory, 'www.google.com');
 
         expect(createdDirectory).to.be.a.directory();
         var createdFile = path.resolve(createdDirectory, 'httpwww.google.com.pdf');

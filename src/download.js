@@ -24,7 +24,7 @@ var DEFAULT_OPTIONS = {
     width: 1366,
     height: 768
   },
-  userAgent: random_useragent.getRandom()
+  userAgent: random_useragent.getRandom(ua => ua.deviceType != 'mobile' && ua.deviceType != 'tablet')
 };
 
 
@@ -114,9 +114,9 @@ module.exports = function (links, options) {
 
       var contentFetchingNeeded = fetchHtml || fetchScreenshot || fetchPdf;
       if (!contentFetchingNeeded) {
-        console.log('skipping ' + link.href + ' as it already exists.');
+        console.log('skipping', link.href, ' as it already exists.');
       } else {
-        console.log('fetching ' + link.href);
+        console.log('fetching', link.href);
 
         var page = nightmare().goto(link.href);
 
@@ -132,7 +132,7 @@ module.exports = function (links, options) {
 
         yield page;
 
-        console.log('successfully written files for ' + link.href);
+        console.log('successfully written files for', link.href);
       }
     }
     yield nightmare().end();

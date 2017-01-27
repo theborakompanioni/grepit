@@ -85,6 +85,8 @@ commander
 
     var shuffledOrOrderedLinks = options.shuffleInput ? shuffleArray(links) : links;
     var chunkedLinkLists = chunkArray(shuffledOrOrderedLinks, calcChunkSize(links));
+    
+    console.log('Queueing', links.length, 'URLs to be handled by', options.browserInstances, 'browsers');
 
     var runnables = chunkedLinkLists
       .map(links => download(links, options));
