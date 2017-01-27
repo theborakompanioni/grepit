@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/grepit.js",
   "scripts": {
-    "run": "node $NODE_DEBUG_OPTION index.js",
-    "start": "node $NODE_DEBUG_OPTION index.js start",
+    "run": "node $NODE_DEBUG_OPTION grepit",
+    "start": "node $NODE_DEBUG_OPTION grepit start",
     "precommit": "npm test",
     "test": "npm run test-server",
     "test-server": "mocha test --recursive --bail --require babel-core/register mocha.config.js",

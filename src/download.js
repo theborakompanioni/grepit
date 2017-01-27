@@ -1,5 +1,6 @@
 var Nightmare1 = require('nightmare');
 var fs = require('fs');
+var path = require('path');
 var URL = require('url');
 var sanitizeFilename = require("sanitize-filename");
 var mkdirp = require('mkdirp');
@@ -75,10 +76,10 @@ module.exports = function (links, options) {
       var link = _links[idx];
 
       var filename = sanitizeFilename(link.href + '.txt');
-      var hostOutputDirectory = outputDirectory + '/' + sanitizeFilename(link.host);
+      var hostOutputDirectory = path.resolve(outputDirectory, sanitizeFilename(link.host));
       mkdirp.sync(hostOutputDirectory);
 
-      var out = hostOutputDirectory + '/' + filename;
+      var out = path.resolve(hostOutputDirectory, filename);
 
       if (fs.existsSync(out)) {
         console.log('skipping ' + link.href + ' as it already exists.');

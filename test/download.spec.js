@@ -1,5 +1,7 @@
 import download from "../src/download.js";
 import vo from "vo";
+import fs from "fs";
+import path from "path";
 
 describe('download', () => {
 
@@ -18,7 +20,7 @@ describe('download', () => {
   });
 
   it('should fetch and save google.com index page', function (done) {
-    var testTimeout = 15 * 1000;
+    var testTimeout = 20 * 1000;
     this.timeout(testTimeout);
     var outputDirectory = 'test-out';
 
@@ -34,9 +36,15 @@ describe('download', () => {
         var createdDirectory = outputDirectory + '/' + 'www.google.com';
 
         expect(createdDirectory).to.be.a.directory();
-        expect(createdDirectory + '/' + 'httpwww.google.com.txt').to.be.a.file();
+        var createdFile = path.resolve(createdDirectory, 'httpwww.google.com.txt');
+        expect(createdFile).to.be.a.file();
 
-        done();
+        fs.unlink(createdFile, function (err) {
+          if (err) {
+            console.log('Cannot delete file', err);
+          }
+          done();
+        });
       })
       .catch(err => done(err));
   });
