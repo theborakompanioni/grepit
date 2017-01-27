@@ -57,12 +57,15 @@ $ node grepit download --help
   Options:
 
     -h, --help                         output usage information
-    -i, --input-directory [indir]      the directory where to load inputs from
-    -o, --output-directory [outdir]    the directory where results are saved
+    -i, --input-directory [indir]      directory where to load inputs from
+    -o, --output-directory [outdir]    directory where results are saved
     -i, --browser-instances [browser]  number of browsers to use
-    -i, --fetch-timeout [timeout]      number of browsers to use
-    -b, --show-browser [show]          whether to show the browser window or run in headless mode
-    -s, --shuffle-input [shuffle]      whether to shuffle input data before executing
+    -t, --fetch-timeout [timeout]      number of browsers to use
+    -p, --pdf                          create a pdf of the content
+    -T, --save-type [type]             type in which to persist outputs
+    -x, --screenshot                   take a screenshot of the content
+    -b, --show-browser                 show the browser window or run in headless mode
+    -s, --shuffle-input                shuffle input data before executing
 
 ```
 

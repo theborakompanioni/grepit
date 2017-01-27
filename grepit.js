@@ -20,7 +20,10 @@ var DEFAULT_OPTIONS = _.defaults({}, {
   showBrowser: false,
   shuffleInput: false,
   debug: false,
-  saveType: 'HTMLOnly'
+  saveType: 'HTMLOnly',
+  screenshot: false,
+  pdf: false,
+  html: true
 });
 
 var readInputFiles = function readInputFiles(inputDirectory) {
@@ -61,13 +64,16 @@ commander
   .command('download')
   .alias('start')
   .description('start downloading page contents to output directory')
-  .option('-i, --input-directory [indir]', 'the directory where to load inputs from', DEFAULT_OPTIONS.inputDirectory)
-  .option('-o, --output-directory [outdir]', 'the directory where results are saved', DEFAULT_OPTIONS.outputDirectory)
+  .option('-i, --input-directory [indir]', 'directory where to load inputs from', DEFAULT_OPTIONS.inputDirectory)
+  .option('-o, --output-directory [outdir]', 'directory where results are saved', DEFAULT_OPTIONS.outputDirectory)
   .option('-i, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
-  .option('-i, --fetch-timeout [timeout]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
-  .option('-b, --show-browser [show]', 'whether to show the browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
-  .option('-s, --shuffle-input [shuffle]', 'whether to shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
-  .option('-s, --save-type [type]', 'type in which to persist outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
+  .option('-t, --fetch-timeout [timeout]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
+  .option('-h, --html', 'save content as html', DEFAULT_OPTIONS.html)
+  .option('-p, --pdf', 'create a pdf of the content', DEFAULT_OPTIONS.pdf)
+  .option('-T, --save-type [type]', 'type in which to persist outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
+  .option('-x, --screenshot', 'take a screenshot of the content', DEFAULT_OPTIONS.screenshot)
+  .option('-b, --show-browser', 'show the browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
+  .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .action(function (cmd) {
     var options = _.defaults(cmd, DEFAULT_OPTIONS);
 

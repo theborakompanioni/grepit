@@ -49,4 +49,69 @@ describe('download', () => {
       .catch(err => done(err));
   });
 
+
+  it('should take screenshot of google.com index page', function (done) {
+    var testTimeout = 20 * 1000;
+    this.timeout(testTimeout);
+    var outputDirectory = 'test-out';
+
+    var links = ['http://www.google.com'];
+    var run = download(links, {
+      outputDirectory: outputDirectory,
+      fetchTimeout: testTimeout - 1000,
+      showBrowser: false,
+      screenshot: true,
+      html: false
+    });
+
+    vo([run])
+      .then(foo => {
+        var createdDirectory = outputDirectory + '/' + 'www.google.com';
+
+        expect(createdDirectory).to.be.a.directory();
+        var createdFile = path.resolve(createdDirectory, 'httpwww.google.com.png');
+        expect(createdFile).to.be.a.file();
+
+        fs.unlink(createdFile, function (err) {
+          if (err) {
+            console.log('Cannot delete file', err);
+          }
+          done();
+        });
+      })
+      .catch(err => done(err));
+  });
+
+  it('should create pdf of google.com index page', function (done) {
+    var testTimeout = 20 * 1000;
+    this.timeout(testTimeout);
+    var outputDirectory = 'test-out';
+
+    var links = ['http://www.google.com'];
+    var run = download(links, {
+      outputDirectory: outputDirectory,
+      fetchTimeout: testTimeout - 1000,
+      showBrowser: false,
+      pdf: true,
+      html: false
+    });
+
+    vo([run])
+      .then(foo => {
+        var createdDirectory = outputDirectory + '/' + 'www.google.com';
+
+        expect(createdDirectory).to.be.a.directory();
+        var createdFile = path.resolve(createdDirectory, 'httpwww.google.com.pdf');
+        expect(createdFile).to.be.a.file();
+
+        fs.unlink(createdFile, function (err) {
+          if (err) {
+            console.log('Cannot delete file', err);
+          }
+          done();
+        });
+      })
+      .catch(err => done(err));
+  });
+
 });

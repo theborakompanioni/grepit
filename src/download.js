@@ -15,7 +15,10 @@ var DEFAULT_OPTIONS = {
   },
   showBrowser: false,
   debug: false,
-  saveType: 'HTMLOnly'
+  saveType: 'HTMLOnly',
+  screenshot: false,
+  pdf: false,
+  html: true
 };
 
 
@@ -61,38 +64,70 @@ module.exports = function (links, options) {
   var outputDirectory = sanitizeFilename(_options.outputDirectory);
   mkdirp.sync(outputDirectory);
 
-  var nightmare = Nightmare1({
-    gotoTimeout: _options.fetchTimeout,
-    show: _options.showBrowser,
-    switches: _options.switches || {},
-    openDevTools: !_options.debug ? null : {
-      mode: 'detach'
+  var nightmare = ((config) => {
+    var val = null;
+    return () => {
+      if (val == null) {
+        val = Nightmare1({
+          gotoTimeout: config.fetchTimeout,
+          show: config.showBrowser,
+          switches: config.switches || {},
+          openDevTools: !config.debug ? null : {
+            mode: 'detach'
+          }
+        })
+          .useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36");
+      }
+      return val;
     }
-  })
-    .useragent("Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36");
+  })(_options);
 
   return function *() {
     //run the page HTML retrieval and save for each link
     for (var idx in _links) {
       var link = _links[idx];
 
-      var filename = sanitizeFilename(link.href + '.txt');
       var hostOutputDirectory = path.resolve(outputDirectory, sanitizeFilename(link.host));
       mkdirp.sync(hostOutputDirectory);
 
-      var out = path.resolve(hostOutputDirectory, filename);
+      var filenameWithoutExtension = sanitizeFilename(link.href);
 
-      if (fs.existsSync(out)) {
+      var htmlFilename = filenameWithoutExtension + '.txt';
+      var htmlOut = path.resolve(hostOutputDirectory, htmlFilename);
+
+      var screenshotFilename = filenameWithoutExtension + '.png';
+      var screenshotOut = path.resolve(hostOutputDirectory, screenshotFilename);
+
+      var pdfFilename = filenameWithoutExtension + '.pdf';
+      var pdfOut = path.resolve(hostOutputDirectory, pdfFilename);
+
+      var fetchHtml = _options.html && !fs.existsSync(htmlOut);
+      var fetchScreenshot = _options.screenshot && !fs.existsSync(screenshotOut);
+      var fetchPdf = _options.pdf && !fs.existsSync(pdfOut);
+
+      var contentFetchingNeeded = fetchHtml || fetchScreenshot || fetchPdf;
+      if (!contentFetchingNeeded) {
         console.log('skipping ' + link.href + ' as it already exists.');
       } else {
         console.log('fetching ' + link.href);
 
-        var page = yield nightmare.goto(link.href)
-          .html(out, _options.saveType);
+        var page = nightmare().goto(link.href);
 
-        console.log('successfully written to file ' + out);
+        if (fetchHtml) {
+          page.html(htmlOut, _options.saveType);
+        }
+        if (fetchScreenshot) {
+          page.screenshot(screenshotOut);
+        }
+        if (fetchPdf) {
+          page.pdf(pdfOut);
+        }
+
+        yield page;
+
+        console.log('successfully written files for ' + link.href);
       }
     }
-    yield nightmare.end();
+    yield nightmare().end();
   };
 };
