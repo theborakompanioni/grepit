@@ -1,11 +1,11 @@
 {
   "name": "grepit",
   "version": "1.0.0",
-  "description": "",
+  "description": "opinionated web content fetching with nightmarejs",
   "main": "dist/grepit.js",
   "scripts": {
     "run": "node $NODE_DEBUG_OPTION grepit",
-    "start": "node $NODE_DEBUG_OPTION grepit start",
+    "start": "node $NODE_DEBUG_OPTION grepit download",
     "precommit": "npm test",
     "test": "npm run test-server",
     "test-server": "mocha test --recursive --bail --require babel-core/register mocha.config.js",

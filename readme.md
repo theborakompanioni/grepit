@@ -44,7 +44,7 @@ $ node grepit --help
   Commands:
 
     help                       display help information
-    download [options]         start downloading page contents to output directory
+    download [options]         download content to output directory
     *
 
   Options:
@@ -68,11 +68,11 @@ $ node grepit download --help
     -i, --input-directory [indir]      directory where to load inputs from
     -o, --output-directory [outdir]    directory where results are saved
     -i, --browser-instances [browser]  number of browsers to use
-    -t, --fetch-timeout [timeout]      number of browsers to use
+    -t, --fetch-timeout [timeout]      per page timeout in milliseconds
     -p, --pdf                          create a pdf of the content
     -T, --save-type [type]             type in which to persist outputs
     -x, --screenshot                   take a screenshot of the content
-    -b, --show-browser                 show the browser window or run in headless mode
+    -b, --show-browser                 show browser window or run in headless mode
     -s, --shuffle-input                shuffle input data before executing
 
 ```

@@ -114,7 +114,7 @@ module.exports = function (links, options) {
 
       var contentFetchingNeeded = fetchHtml || fetchScreenshot || fetchPdf;
       if (!contentFetchingNeeded) {
-        console.log('skipping', link.href, ' as it already exists.');
+        console.log('skipping', link.href, 'as it already exists.');
       } else {
         console.log('fetching', link.href);
 

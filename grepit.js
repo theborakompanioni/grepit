@@ -62,17 +62,16 @@ commander.command('help', null, {isDefault: true})
 
 commander
   .command('download')
-  .alias('start')
-  .description('start downloading page contents to output directory')
+  .description('download content to output directory')
   .option('-i, --input-directory [indir]', 'directory where to load inputs from', DEFAULT_OPTIONS.inputDirectory)
   .option('-o, --output-directory [outdir]', 'directory where results are saved', DEFAULT_OPTIONS.outputDirectory)
   .option('-i, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
-  .option('-t, --fetch-timeout [timeout]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
+  .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-h, --html', 'save content as html', DEFAULT_OPTIONS.html)
   .option('-p, --pdf', 'create a pdf of the content', DEFAULT_OPTIONS.pdf)
   .option('-T, --save-type [type]', 'type in which to persist outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
   .option('-x, --screenshot', 'take a screenshot of the content', DEFAULT_OPTIONS.screenshot)
-  .option('-b, --show-browser', 'show the browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
+  .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .action(function (cmd) {
     var options = _.defaults(cmd, DEFAULT_OPTIONS);
@@ -85,7 +84,7 @@ commander
 
     var shuffledOrOrderedLinks = options.shuffleInput ? shuffleArray(links) : links;
     var chunkedLinkLists = chunkArray(shuffledOrOrderedLinks, calcChunkSize(links));
-    
+
     console.log('Queueing', links.length, 'URLs to be handled by', options.browserInstances, 'browsers');
 
     var runnables = chunkedLinkLists
