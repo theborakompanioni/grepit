@@ -15,7 +15,11 @@ $ npm install --save grepit
 ```
 $ node grepit download \
   --input-directory my_input_dir \
-  --output-direcotry my_output_directory
+  --output-directory my_output_directory \
+  --browser-instances 4 \
+  --fetch-timeout 10000 \
+  --show-browser true \
+  --shuffle-links true
 ```
 
 ```
@@ -26,7 +30,7 @@ $ node grepit --help
   Commands:
 
     help                       display help information
-    download|start [options]   start downloading page contents to output directory
+    download [options]         start downloading page contents to output directory
     *
 
   Options:
@@ -66,6 +70,7 @@ var download = grepit([
 
 var gen = download();
 var page = gen.next().value;
+
 // ...
 ```
 
