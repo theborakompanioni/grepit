@@ -2,12 +2,17 @@
 [![Build Status][travis-image]][travis-url]
 [![Dependency Status][depstat-image]][depstat-url]
 
-> persist web content
+> opinionated web content fetching with nightmarejs
 
-## Installation
+## Install
+Prerequisites:
+- [git](https://git-scm.com/)
+- [node](https://nodejs.org)
 
 ```
-$ npm install --save grepit
+$ git clone https://github.com/theborakompanioni/grepit.git
+$ cd grepit
+$ npm install
 ```
 
 ## Usage
@@ -19,7 +24,7 @@ $ node grepit download \
   --browser-instances 4 \
   --fetch-timeout 10000 \
   --show-browser true \
-  --shuffle-links true
+  --shuffle-input true
 ```
 
 ```
@@ -56,11 +61,15 @@ $ node grepit download --help
     -i, --browser-instances [browser]  number of browsers to use
     -i, --fetch-timeout [timeout]      number of browsers to use
     -b, --show-browser [show]          whether to show the browser window or run in headless mode
-    -s, --shuffle-links [shuffle]      whether to shuffle input data before executing
+    -s, --shuffle-input [shuffle]      whether to shuffle input data before executing
 
 ```
 
-## Code
+## Development
+```
+$ npm install --save theborakompanioni/grepit
+```
+
 ```js
 var grepit = require('grepit');
 
