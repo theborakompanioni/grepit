@@ -1,3 +1,6 @@
+var chunkArray = require('./util/chunkArray');
+var shuffleArray = require('./util/shuffleArray');
+
 var Nightmare1 = require('nightmare');
 var fs = require('fs');
 var path = require('path');
@@ -6,6 +9,10 @@ var sanitizeFilename = require("sanitize-filename");
 var mkdirp = require('mkdirp');
 var _ = require('lodash');
 var random_useragent = require('random-useragent');
+
+var os = require('os');
+
+var SYSTEM_EOL = os.EOL;
 
 var DEFAULT_OPTIONS = {
   outputDirectory: 'out',
@@ -24,9 +31,34 @@ var DEFAULT_OPTIONS = {
     width: 1366,
     height: 768
   },
-  userAgent: random_useragent.getRandom(ua => ua.deviceType != 'mobile' && ua.deviceType != 'tablet')
+  randomUserAgent: false,
+  userAgent: 'Mozilla/5.0 (compatible; Grepit/0.1; +http://www.example.com/bot.html)'
 };
 
+
+
+var readInputFiles = function readInputFiles(inputDirectory) {
+  var links = [];
+  var filenames = fs.readdirSync(inputDirectory);
+
+  filenames.forEach(filename => {
+    //split the read links on operating-specific newlines into an array
+    var linksFromFile = fs.readFileSync(path.resolve(inputDirectory, filename), 'utf-8')
+      .toString()
+      .split(SYSTEM_EOL)
+      .filter(link => {
+        //filter out blank lines
+        return !(/^\s*$/.test(link));
+      })
+      .filter(link => {
+        //filter out non http links
+        return (/^http.*$/.test(link));
+      });
+    links = links.concat(linksFromFile);
+  });
+
+  return Array.from(new Set(links));
+};
 
 var parseAsUrls = function (links) {
   return (links || []).map(link => {
@@ -62,15 +94,15 @@ var parseAsUrls = function (links) {
  *
  * @return {function} Result
  */
-module.exports = function (links, options) {
+function download(links, options) {
   var _links = parseAsUrls(links);
-
   var _options = _.defaults(options, DEFAULT_OPTIONS);
 
-  var outputDirectory = sanitizeFilename(_options.outputDirectory);
-  mkdirp.sync(outputDirectory);
-
   var nightmare = ((config) => {
+    var userAgent = config.randomUserAgent ? random_useragent
+      .getRandom(ua => ua.deviceType != 'mobile' && ua.deviceType != 'tablet') :
+      config.userAgent;
+
     var val = null;
     return () => {
       if (val == null) {
@@ -83,7 +115,7 @@ module.exports = function (links, options) {
           }
         })
           .viewport(config.viewport.width, config.viewport.height)
-          .useragent(config.userAgent);
+          .useragent(userAgent);
       }
       return val;
     }
@@ -94,7 +126,7 @@ module.exports = function (links, options) {
     for (var idx in _links) {
       var link = _links[idx];
 
-      var hostOutputDirectory = path.resolve(outputDirectory, sanitizeFilename(link.host));
+      var hostOutputDirectory = path.resolve(_options.outputDirectory, sanitizeFilename(link.host));
       mkdirp.sync(hostOutputDirectory);
 
       var filenameWithoutExtension = sanitizeFilename(link.href);
@@ -137,4 +169,33 @@ module.exports = function (links, options) {
     }
     yield nightmare().end();
   };
+}
+
+module.exports = function (cmd) {
+  var options = _.defaults(cmd, DEFAULT_OPTIONS);
+  options.inputDirectory = sanitizeFilename(options.inputDirectory);
+  options.outputDirectory = sanitizeFilename(options.outputDirectory);
+
+  console.log('reading input data from', options.inputDirectory);
+  var links = readInputFiles(options.inputDirectory);
+
+  console.log('touch output directory', options.outputDirectory);
+  mkdirp.sync(options.outputDirectory);
+
+  var calcChunkSize = (links) => {
+    return links.length <= options.browserInstances ? links.length : Math.ceil(links.length / options.browserInstances);
+  };
+
+  var shuffledOrOrderedLinks = options.shuffleInput ? shuffleArray(links) : links;
+  var chunkedLinkLists = chunkArray(shuffledOrOrderedLinks, calcChunkSize(links));
+
+  console.log('queueing', links.length, 'url(s) to be handled by', options.browserInstances, 'browsers');
+
+  var runnables = chunkedLinkLists
+    .map(links => download(links, options));
+
+  return runnables;
 };
+
+// @OnlyVisibleForTesting
+module.exports.download = download;

@@ -1,4 +1,4 @@
-import download from "../src/download.js";
+import CMD from "../src/download.js";
 import vo from "vo";
 import fs from "fs";
 import path from "path";
@@ -9,7 +9,7 @@ describe('download', () => {
   it('should do nothing on empty array', function () {
     var testTimeout = 5 * 1000;
     this.timeout(testTimeout);
-    var generator = download([])();
+    var generator = CMD.download([])();
 
     var next = generator.next();
     var nightmarejs = next.value;
@@ -25,7 +25,7 @@ describe('download', () => {
     this.timeout(testTimeout);
 
     var links = ['http://www.google.com'];
-    var run = download(links, {
+    var run = CMD.download(links, {
       outputDirectory: outputDirectory,
       fetchTimeout: testTimeout - 1000,
       showBrowser: false
@@ -55,7 +55,7 @@ describe('download', () => {
     this.timeout(testTimeout);
 
     var links = ['http://www.google.com'];
-    var run = download(links, {
+    var run = CMD.download(links, {
       outputDirectory: outputDirectory,
       fetchTimeout: testTimeout - 1000,
       showBrowser: false,
@@ -86,7 +86,7 @@ describe('download', () => {
     this.timeout(testTimeout);
 
     var links = ['http://www.google.com'];
-    var run = download(links, {
+    var run = CMD.download(links, {
       outputDirectory: outputDirectory,
       fetchTimeout: testTimeout - 1000,
       showBrowser: false,

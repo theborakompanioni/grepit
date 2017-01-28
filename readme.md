@@ -16,65 +16,56 @@ $ npm install
 ```
 
 ## Usage
-Place text files with URLs in a directory and run:
+Place text files with URLs in a directory named "input_data" and run:
 ```
-$ node grepit download \
-  --input-directory my_input_dir \
-  --output-directory out
+$ node grepit html -i input_data -o out -r -s -b
 ```
 
-```
-$ node grepit download \
-  --input-directory my_input_dir \
-  --output-directory my_output_directory \
-  --browser-instances 4 \
-  --fetch-timeout 10000 \
-  --show-browser \
-  --shuffle-input \
-  --save-type HTMLOnly
-  --screenshot
-  --pdf
-```
-
+### help
 ```
 $ node grepit --help
 
   Usage: grepit [options] [command]
 
+
   Commands:
 
-    help                       display help information
-    download [options]         download content to output directory
-    *
+    help                   display help information
+    html [options]         download content as html
+    screenshot [options]   download content as image
+    pdf [options]          download content as pdf
+    download [options]     download content to output directory
+    *                    
 
   Options:
 
     -h, --help       output usage information
     -V, --version    output the version number
     -v, --verbose    display more fine grained log messages
-    -debug, --debug  run in debug mod
-```
+    -debug, --debug  run in debug mode
 
 ```
-$ node grepit download --help
 
-  Usage: download|start [options]
+### html
+```
+$ node grepit html --help
 
-  start downloading page contents to output directory
+  Usage: html [options]
+
+  download content as html
 
   Options:
 
     -h, --help                         output usage information
     -i, --input-directory [indir]      directory where to load inputs from
     -o, --output-directory [outdir]    directory where results are saved
-    -i, --browser-instances [browser]  number of browsers to use
+    -n, --browser-instances [browser]  number of browsers to use
     -t, --fetch-timeout [timeout]      per page timeout in milliseconds
-    -p, --pdf                          create a pdf of the content
-    -T, --save-type [type]             type in which to persist outputs
-    -x, --screenshot                   take a screenshot of the content
+    -r, --randomize-useragent          randomize useragents
     -b, --show-browser                 show browser window or run in headless mode
     -s, --shuffle-input                shuffle input data before executing
-
+    -T, --save-type [type]             type in which to persist html outputs
+    
 ```
 
 saveType String - Specify the save type.
@@ -83,6 +74,16 @@ saveType String - Specify the save type.
 - `MHTML` - Save complete-html page as MHTML.
 See [electron savetype info](https://github.com/electron/electron/blob/master/docs/api/web-contents.md#webcontentssavepagefullpath-savetype-callback)
 
+
+### screenshot
+```
+$ node grepit screenshot --help
+```
+
+### pdf
+```
+$ node grepit pdf --help
+```
 
 ## Development
 ```

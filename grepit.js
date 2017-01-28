@@ -9,7 +9,6 @@ var os = require('os');
 var _ = require('lodash');
 var commander = require('commander');
 
-var SYSTEM_EOL = os.EOL;
 var cpuCoresCount = os.cpus().length;
 
 var DEFAULT_OPTIONS = _.defaults({}, {
@@ -22,32 +21,10 @@ var DEFAULT_OPTIONS = _.defaults({}, {
   debug: false,
   saveType: 'HTMLOnly',
   screenshot: false,
+  randomUserAgent: false,
   pdf: false,
   html: true
 });
-
-var readInputFiles = function readInputFiles(inputDirectory) {
-  var links = [];
-  var filenames = fs.readdirSync(inputDirectory);
-
-  filenames.forEach(filename => {
-    //split the read links on operating-specific newlines into an array
-    var linksFromFile = fs.readFileSync(path.resolve(inputDirectory, filename), 'utf-8')
-      .toString()
-      .split(SYSTEM_EOL)
-      .filter(link => {
-        //filter out blank lines
-        return !(/^\s*$/.test(link));
-      })
-      .filter(link => {
-        //filter out non http links
-        return (/^http.*$/.test(link));
-      });
-    links = links.concat(linksFromFile);
-  });
-
-  return Array.from(new Set(links));
-};
 
 commander
   .version('0.0.1')
@@ -61,34 +38,93 @@ commander.command('help', null, {isDefault: true})
   });
 
 commander
-  .command('download')
-  .description('download content to output directory')
+  .command('html')
+  .description('download content as html')
   .option('-i, --input-directory [indir]', 'directory where to load inputs from', DEFAULT_OPTIONS.inputDirectory)
   .option('-o, --output-directory [outdir]', 'directory where results are saved', DEFAULT_OPTIONS.outputDirectory)
-  .option('-i, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
+  .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
   .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
-  .option('-h, --html', 'save content as html', DEFAULT_OPTIONS.html)
-  .option('-p, --pdf', 'create a pdf of the content', DEFAULT_OPTIONS.pdf)
-  .option('-T, --save-type [type]', 'type in which to persist outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
-  .option('-x, --screenshot', 'take a screenshot of the content', DEFAULT_OPTIONS.screenshot)
+  .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
+  .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
+  .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
+  .option('-T, --save-type [type]', 'type in which to persist html outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
+  .action(function (cmd) {
+    var options = _.defaults(cmd, DEFAULT_OPTIONS);
+    options.html = true;
+    options.screenshot = false;
+    options.pdf = false;
+
+    var runnables = download(options);
+
+    vo(runnables)
+      .then(foo => console.log('done'))
+      .catch(e => console.error(e));
+  });
+
+commander
+  .command('screenshot')
+  .description('download content as image')
+  .option('-i, --input-directory [indir]', 'directory where to load inputs from', DEFAULT_OPTIONS.inputDirectory)
+  .option('-o, --output-directory [outdir]', 'directory where results are saved', DEFAULT_OPTIONS.outputDirectory)
+  .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
+  .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
+  .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
   .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .action(function (cmd) {
     var options = _.defaults(cmd, DEFAULT_OPTIONS);
+    options.html = false;
+    options.screenshot = true;
+    options.pdf = false;
 
-    var links = readInputFiles(options.inputDirectory);
+    var runnables = download(options);
 
-    var calcChunkSize = (links) => {
-      return links.length <= options.browserInstances ? links.length : Math.ceil(links.length / options.browserInstances);
-    };
+    vo(runnables)
+      .then(foo => console.log('done'))
+      .catch(e => console.error(e));
+  });
 
-    var shuffledOrOrderedLinks = options.shuffleInput ? shuffleArray(links) : links;
-    var chunkedLinkLists = chunkArray(shuffledOrOrderedLinks, calcChunkSize(links));
+commander
+  .command('pdf')
+  .description('download content as pdf')
+  .option('-i, --input-directory [indir]', 'directory where to load inputs from', DEFAULT_OPTIONS.inputDirectory)
+  .option('-o, --output-directory [outdir]', 'directory where results are saved', DEFAULT_OPTIONS.outputDirectory)
+  .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
+  .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
+  .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
+  .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
+  .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
+  .action(function (cmd) {
+    var options = _.defaults(cmd, DEFAULT_OPTIONS);
+    options.html = false;
+    options.screenshot = false;
+    options.pdf = true;
 
-    console.log('Queueing', links.length, 'URLs to be handled by', options.browserInstances, 'browsers');
+    var runnables = download(options);
 
-    var runnables = chunkedLinkLists
-      .map(links => download(links, options));
+    vo(runnables)
+      .then(foo => console.log('done'))
+      .catch(e => console.error(e));
+  });
+
+commander
+  .command('download')
+  .description('download content to output directory')
+  .option('-i, --input-directory [indir]', 'directory where to load inputs from', DEFAULT_OPTIONS.inputDirectory)
+  .option('-o, --output-directory [outdir]', 'directory where results are saved', DEFAULT_OPTIONS.outputDirectory)
+  .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
+  .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
+  .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
+  .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
+  .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
+  .option('-h, --html', 'save content as html', DEFAULT_OPTIONS.html)
+  .option('-p, --pdf', 'create a pdf of the content', DEFAULT_OPTIONS.pdf)
+  .option('-T, --save-type [type]', 'type in which to persist html outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
+  .option('-x, --screenshot', 'take a screenshot of the content', DEFAULT_OPTIONS.screenshot)
+  .action(function (cmd) {
+    var options = _.defaults(cmd, DEFAULT_OPTIONS);
+
+    var runnables = download(options);
 
     vo(runnables)
       .then(foo => console.log('done'))
