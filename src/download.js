@@ -110,6 +110,8 @@ function download(links, options) {
       .getRandom(ua => ua.deviceType != 'mobile' && ua.deviceType != 'tablet') :
       config.userAgent;
 
+    var loadImages = !!_options.pdf || !!_options.screenshot;
+
     var val = null;
     return () => {
       if (val == null) {
@@ -122,7 +124,7 @@ function download(links, options) {
             mode: 'detach'
           },
           webPreferences: {
-            images: true
+            images: loadImages
           }
         })
           .viewport(config.viewport.width, config.viewport.height)
