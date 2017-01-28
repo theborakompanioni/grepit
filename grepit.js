@@ -17,6 +17,8 @@ var DEFAULT_OPTIONS = _.defaults({}, {
   browserInstances: Math.max(cpuCoresCount, 1),
   fetchTimeout: 10000,
   showBrowser: false,
+  nojs: false,
+  noimg: false,
   shuffleInput: false,
   debug: false,
   saveType: 'HTMLOnly',
@@ -45,6 +47,8 @@ commander
   .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
   .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
+  .option('-j, --nojs', 'disable javascript', DEFAULT_OPTIONS.nojs)
+  .option('-N, --noimg', 'disable images', DEFAULT_OPTIONS.noimg)
   .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .option('-T, --save-type [type]', 'type in which to persist html outputs', /^(HTMLOnly|HTMLComplete|MHTML)$/i, DEFAULT_OPTIONS.saveType)
@@ -69,6 +73,8 @@ commander
   .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
   .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
+  .option('-j, --nojs', 'disable javascript', DEFAULT_OPTIONS.nojs)
+  .option('-N, --noimg', 'disable images', DEFAULT_OPTIONS.noimg)
   .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .action(function (cmd) {
@@ -92,6 +98,8 @@ commander
   .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
   .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
+  .option('-j, --nojs', 'disable javascript', DEFAULT_OPTIONS.nojs)
+  .option('-N, --noimg', 'disable images', DEFAULT_OPTIONS.noimg)
   .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .action(function (cmd) {
@@ -115,6 +123,8 @@ commander
   .option('-n, --browser-instances [browser]', 'number of browsers to use', str => parseInt(str, 10), DEFAULT_OPTIONS.browserInstances)
   .option('-t, --fetch-timeout [timeout]', 'per page timeout in milliseconds', str => parseInt(str, 10), DEFAULT_OPTIONS.fetchTimeout)
   .option('-r, --randomize-useragent', 'randomize useragents', DEFAULT_OPTIONS.randomUserAgent)
+  .option('-j, --nojs', 'disable javascript', DEFAULT_OPTIONS.nojs)
+  .option('-N, --noimg', 'disable images', DEFAULT_OPTIONS.noimg)
   .option('-b, --show-browser', 'show browser window or run in headless mode', DEFAULT_OPTIONS.showBrowser)
   .option('-s, --shuffle-input', 'shuffle input data before executing', DEFAULT_OPTIONS.shuffleInput)
   .option('-h, --html', 'save content as html', DEFAULT_OPTIONS.html)

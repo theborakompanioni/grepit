@@ -21,6 +21,16 @@ Place text files with URLs in a directory named "input_data" and run:
 $ node grepit html -i input_data -o out -r -s -b
 ```
 
+### Examples
+#### Save html and take screenshot with images and javascript disabled
+```
+node grepit download -i input_data -o out --html --screenshot --nojs
+```
+#### Save html while shuffling inputs and randomizing user agents
+```
+node grepit html -i input_data -o out --noimg --nojs -rs
+```
+
 ### help
 ```
 $ node grepit --help
@@ -55,13 +65,14 @@ $ node grepit html --help
   download content as html
 
   Options:
-
     -h, --help                         output usage information
     -i, --input-directory [indir]      directory where to load inputs from
     -o, --output-directory [outdir]    directory where results are saved
     -n, --browser-instances [browser]  number of browsers to use
     -t, --fetch-timeout [timeout]      per page timeout in milliseconds
     -r, --randomize-useragent          randomize useragents
+    -j, --nojs                         disable javascript
+    -N, --noimg                        disable images
     -b, --show-browser                 show browser window or run in headless mode
     -s, --shuffle-input                shuffle input data before executing
     -T, --save-type [type]             type in which to persist html outputs

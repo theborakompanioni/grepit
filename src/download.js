@@ -22,6 +22,8 @@ var DEFAULT_OPTIONS = {
     //'ignore-certificate-errors': true
   },
   showBrowser: false,
+  nojs: false,
+  noimg: false,
   debug: false,
   saveType: 'HTMLOnly',
   screenshot: false,
@@ -110,7 +112,7 @@ function download(links, options) {
       .getRandom(ua => ua.deviceType != 'mobile' && ua.deviceType != 'tablet') :
       config.userAgent;
 
-    var loadImages = !!_options.pdf || !!_options.screenshot;
+    var loadImages = !config.noimg && (!!config.pdf || !!config.screenshot);
 
     var val = null;
     return () => {
@@ -124,11 +126,14 @@ function download(links, options) {
             mode: 'detach'
           },
           webPreferences: {
-            images: loadImages
+            images: loadImages,
+            javascript: !config.nojs,
+            webaudio: false,
+            plugins: true
           }
         })
           .viewport(config.viewport.width, config.viewport.height)
-          .useragent(userAgent);
+          .useragent(userAgent)
       }
       return val;
     }
@@ -163,21 +168,27 @@ function download(links, options) {
       } else {
         console.log('fetching', link.href);
 
-        var page = nightmare().goto(link.href);
+        try {
+          var page = nightmare().goto(link.href);
 
-        if (fetchHtml) {
-          page.html(htmlOut, _options.saveType);
-        }
-        if (fetchScreenshot) {
-          page.screenshot(screenshotOut);
-        }
-        if (fetchPdf) {
-          page.pdf(pdfOut);
-        }
+          if (fetchHtml) {
+            page.html(htmlOut, _options.saveType);
+          }
+          if (fetchScreenshot) {
+            page.screenshot(screenshotOut);
+          }
+          if (fetchPdf) {
+            page.pdf(pdfOut);
+          }
 
-        yield page;
+          yield page;
 
-        console.log('successfully written files for', link.href);
+          console.log('successfully written files for', link.href);
+        } catch (e) {
+          console.error('Error while fetching ', link.href);
+          yield nightmare().end();
+          throw e;
+        }
       }
     }
     yield nightmare().end();
