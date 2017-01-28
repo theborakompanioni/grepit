@@ -1,5 +1,6 @@
 out/
 test-out/
+examples/custom
 .idea/
 node_modules
 coverage

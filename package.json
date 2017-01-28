@@ -48,7 +48,6 @@
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "nightmare": "^2.9.1",
-    "sanitize-filename": "^1.6.1",
     "vo": "^4.0.2",
     "random-useragent": "^0.3.1"
   }

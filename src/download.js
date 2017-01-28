@@ -1,11 +1,11 @@
 var chunkArray = require('./util/chunkArray');
 var shuffleArray = require('./util/shuffleArray');
+var sanitizeFilename = require("./util/sanitizeFilename");
 
 var Nightmare1 = require('nightmare');
 var fs = require('fs');
 var path = require('path');
 var URL = require('url');
-var sanitizeFilename = require("sanitize-filename");
 var mkdirp = require('mkdirp');
 var _ = require('lodash');
 var random_useragent = require('random-useragent');
@@ -36,26 +36,33 @@ var DEFAULT_OPTIONS = {
 };
 
 
-
 var readInputFiles = function readInputFiles(inputDirectory) {
   var links = [];
   var filenames = fs.readdirSync(inputDirectory);
 
-  filenames.forEach(filename => {
-    //split the read links on operating-specific newlines into an array
-    var linksFromFile = fs.readFileSync(path.resolve(inputDirectory, filename), 'utf-8')
-      .toString()
-      .split(SYSTEM_EOL)
-      .filter(link => {
-        //filter out blank lines
-        return !(/^\s*$/.test(link));
-      })
-      .filter(link => {
-        //filter out non http links
-        return (/^http.*$/.test(link));
-      });
-    links = links.concat(linksFromFile);
-  });
+  filenames
+    .map(filename => path.resolve(inputDirectory, filename))
+    .forEach(filename => {
+      var linksFromFile = [];
+
+      if (fs.lstatSync(filename).isDirectory()) {
+        linksFromFile = readInputFiles(filename);
+      } else {
+        //split the read links on operating-specific newlines into an array
+        linksFromFile = fs.readFileSync(filename, 'utf-8')
+          .toString()
+          .split(SYSTEM_EOL)
+          .filter(link => {
+            //filter out blank lines
+            return !(/^\s*$/.test(link));
+          })
+          .filter(link => {
+            //filter out non http links
+            return (/^http.*$/.test(link));
+          });
+      }
+      links = links.concat(linksFromFile);
+    });
 
   return Array.from(new Set(links));
 };
@@ -107,11 +114,15 @@ function download(links, options) {
     return () => {
       if (val == null) {
         val = Nightmare1({
+          title: 'grepit',
           gotoTimeout: config.fetchTimeout,
           show: config.showBrowser,
           switches: config.switches || {},
           openDevTools: !config.debug ? null : {
             mode: 'detach'
+          },
+          webPreferences: {
+            images: true
           }
         })
           .viewport(config.viewport.width, config.viewport.height)
@@ -173,8 +184,8 @@ function download(links, options) {
 
 module.exports = function (cmd) {
   var options = _.defaults(cmd, DEFAULT_OPTIONS);
-  options.inputDirectory = sanitizeFilename(options.inputDirectory);
-  options.outputDirectory = sanitizeFilename(options.outputDirectory);
+  options.inputDirectory = sanitizeFilename(options.inputDirectory, {directory: true});
+  options.outputDirectory = sanitizeFilename(options.outputDirectory, {directory: true});
 
   console.log('reading input data from', options.inputDirectory);
   var links = readInputFiles(options.inputDirectory);
